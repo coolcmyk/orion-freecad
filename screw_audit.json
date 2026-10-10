@@ -1,0 +1,6030 @@
+{
+  "status": "FAIL: assembly defects found; not manufacturing ready",
+  "gauge_dimensions": {
+    "shaft_diameter_mm": 2,
+    "under_head_length_mm": 6,
+    "head_diameter_mm": 4.6,
+    "head_height_mm": 2,
+    "nut_across_flats_mm": 4.156922,
+    "nut_height_mm": 1.6,
+    "driver_diameter_mm": 3,
+    "driver_access_length_mm": 12
+  },
+  "gauge_warning": "Hypothetical hardware gauges; do not infer purchased hardware dimensions",
+  "source_document": "/home/kyo/ws/orion/ORION_frame.FCStd",
+  "variants": [
+    {
+      "quantity": 62,
+      "joints": [
+        {
+          "id": "motor_0_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            66.821591,
+            66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            66.821591,
+            66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            60.45763,
+            66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            60.45763,
+            66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            60.45763,
+            60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            60.45763,
+            60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            66.821591,
+            60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            66.821591,
+            60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_0_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            21.213203,
+            21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            21.213203,
+            21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_0_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            26.870058,
+            26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            26.870058,
+            26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "ESCTray_0",
+                "overlap_mm3": 7.70587
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_0_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            28.637825,
+            28.637825,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.637825,
+            28.637825,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "ESCTray_0"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 9.18313
+              },
+              {
+                "part": "Arm_FL",
+                "overlap_mm3": 2.16553
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_0_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            51.972348,
+            51.972348,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            51.972348,
+            51.972348,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "ESCTray_0"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_1_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -66.821591,
+            66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -66.821591,
+            66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -66.821591,
+            60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -66.821591,
+            60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -60.45763,
+            60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -60.45763,
+            60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -60.45763,
+            66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -60.45763,
+            66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_1_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -21.213203,
+            21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -21.213203,
+            21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_1_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -26.870058,
+            26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -26.870058,
+            26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "ESCTray_1",
+                "overlap_mm3": 7.70587
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_1_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -28.637825,
+            28.637825,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.637825,
+            28.637825,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "ESCTray_1"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 9.18313
+              },
+              {
+                "part": "Arm_RL",
+                "overlap_mm3": 2.16553
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_1_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -51.972348,
+            51.972348,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -51.972348,
+            51.972348,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "ESCTray_1"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_2_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -66.821591,
+            -66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -66.821591,
+            -66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -60.45763,
+            -66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -60.45763,
+            -66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -60.45763,
+            -60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -60.45763,
+            -60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -66.821591,
+            -60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -66.821591,
+            -60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_2_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -21.213203,
+            -21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -21.213203,
+            -21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_2_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -26.870058,
+            -26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -26.870058,
+            -26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "ESCTray_2",
+                "overlap_mm3": 7.70587
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_2_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -28.637825,
+            -28.637825,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.637825,
+            -28.637825,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "ESCTray_2"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 9.18313
+              },
+              {
+                "part": "Arm_RR",
+                "overlap_mm3": 2.16553
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_2_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -51.972348,
+            -51.972348,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -51.972348,
+            -51.972348,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "ESCTray_2"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_3_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            66.821591,
+            -66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            66.821591,
+            -66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            66.821591,
+            -60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            66.821591,
+            -60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            60.45763,
+            -60.45763,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            60.45763,
+            -60.45763,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            60.45763,
+            -66.821591,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            60.45763,
+            -66.821591,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_3_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            21.213203,
+            -21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            21.213203,
+            -21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_3_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            26.870058,
+            -26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            26.870058,
+            -26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "ESCTray_3",
+                "overlap_mm3": 7.70587
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_3_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            28.637825,
+            -28.637825,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.637825,
+            -28.637825,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "ESCTray_3"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 9.18313
+              },
+              {
+                "part": "Arm_FR",
+                "overlap_mm3": 2.16553
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_3_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            51.972348,
+            -51.972348,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            51.972348,
+            -51.972348,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "ESCTray_3"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "nano_board_0",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            -22.55,
+            -22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -22.55,
+            -22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_1",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            -22.55,
+            22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -22.55,
+            22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_2",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            22.55,
+            -22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            22.55,
+            -22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_3",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            22.55,
+            22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            22.55,
+            22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_holder_0",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            -30.0,
+            -10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -30.0,
+            -10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_1",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            -30.0,
+            10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -30.0,
+            10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_2",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            30.0,
+            -10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            30.0,
+            -10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_3",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            30.0,
+            10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            30.0,
+            10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "CenterBatteryBolt_0",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            -28.0,
+            -13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.0,
+            -13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_1",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            -28.0,
+            13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.0,
+            13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_2",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            28.0,
+            -13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.0,
+            -13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_3",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            28.0,
+            13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.0,
+            13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "GPSBaseBolt_0",
+          "category": "GPS support",
+          "head_bearing_point_mm": [
+            -35.5,
+            -6.0,
+            -3.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -35.5,
+            -6.0,
+            3.0
+          ],
+          "owners": [
+            "GPSMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "PowerMountSolid",
+                "overlap_mm3": 10.01206
+              }
+            ]
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "GPSBaseBolt_1",
+          "category": "GPS support",
+          "head_bearing_point_mm": [
+            -35.5,
+            6.0,
+            -3.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -35.5,
+            6.0,
+            3.0
+          ],
+          "owners": [
+            "GPSMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "PowerMountSolid",
+                "overlap_mm3": 10.01206
+              }
+            ]
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "IMUBaseBolt_0",
+          "category": "IMU support",
+          "head_bearing_point_mm": [
+            -14.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -14.0,
+            0.0,
+            -6.0
+          ],
+          "owners": [
+            "IMUMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "IMUBaseBolt_1",
+          "category": "IMU support",
+          "head_bearing_point_mm": [
+            14.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            14.0,
+            0.0,
+            -6.0
+          ],
+          "owners": [
+            "IMUMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "PowerBaseBolt_0",
+          "category": "Power support",
+          "head_bearing_point_mm": [
+            -21.0,
+            -12.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -21.0,
+            -12.0,
+            -6.0
+          ],
+          "owners": [
+            "PowerMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "PowerBaseBolt_1",
+          "category": "Power support",
+          "head_bearing_point_mm": [
+            -21.0,
+            12.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -21.0,
+            12.0,
+            -6.0
+          ],
+          "owners": [
+            "PowerMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_0",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            -10.0,
+            -30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -10.0,
+            -30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkidN1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_1",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            10.0,
+            -30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            10.0,
+            -30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkidN1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_2",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            -10.0,
+            30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -10.0,
+            30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkid1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_3",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            10.0,
+            30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            10.0,
+            30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkid1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "camera_board_0",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            42.694925,
+            -10.5,
+            12.67952
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            36.89937,
+            -10.5,
+            14.232434
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_1",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            46.188982,
+            -10.5,
+            25.719519
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            40.393427,
+            -10.5,
+            27.272433
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_2",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            42.694925,
+            10.5,
+            12.67952
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            36.89937,
+            10.5,
+            14.232434
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_3",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            46.188982,
+            10.5,
+            25.719519
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            40.393427,
+            10.5,
+            27.272433
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_pivot_0",
+          "category": "Camera pivot",
+          "head_bearing_point_mm": [
+            43.0,
+            -20.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "tip_mm": [
+            43.0,
+            -14.0,
+            20.0
+          ],
+          "owners": [
+            "CameraFrameSolid",
+            "CameraBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "3.500 mm bearing-to-nut distance; 0.900 mm tip allowance with 1.6 mm gauge nut"
+        },
+        {
+          "id": "camera_pivot_1",
+          "category": "Camera pivot",
+          "head_bearing_point_mm": [
+            43.0,
+            20.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "tip_mm": [
+            43.0,
+            14.0,
+            20.0
+          ],
+          "owners": [
+            "CameraFrameSolid",
+            "CameraBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "3.500 mm bearing-to-nut distance; 0.900 mm tip allowance with 1.6 mm gauge nut"
+        },
+        {
+          "id": "camera_base_0",
+          "category": "Camera fixed base",
+          "head_bearing_point_mm": [
+            35.0,
+            -19.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.0,
+            -19.0,
+            -4.0
+          ],
+          "owners": [
+            "CameraBaseSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Circular nut recess needs physical retention verification; gauge collisions recorded separately"
+        },
+        {
+          "id": "camera_base_1",
+          "category": "Camera fixed base",
+          "head_bearing_point_mm": [
+            35.0,
+            19.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.0,
+            19.0,
+            -4.0
+          ],
+          "owners": [
+            "CameraBaseSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Circular nut recess needs physical retention verification; gauge collisions recorded separately"
+        }
+      ],
+      "screw_shaft_pair_collisions": [],
+      "excluded_checks": [
+        "Real hardware dimensions and thread strength",
+        "Detailed Nano STEP hardware boolean intersections: separate attempt exceeded 180 s; not established",
+        "Actual motor thread geometry",
+        "Flexible cables and assembly hand/tool ergonomics",
+        "Wi-Fi conductive hardware acceptance; existing keepout remains unresolved"
+      ],
+      "wheelbase_mm": 180
+    },
+    {
+      "quantity": 62,
+      "joints": [
+        {
+          "id": "motor_0_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            70.357125,
+            70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            70.357125,
+            70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            63.993164,
+            70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            63.993164,
+            70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            63.993164,
+            63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            63.993164,
+            63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            70.357125,
+            63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            70.357125,
+            63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_0_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            21.213203,
+            21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            21.213203,
+            21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_0_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            26.870058,
+            26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            26.870058,
+            26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_0_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            32.173359,
+            32.173359,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            32.173359,
+            32.173359,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "ESCTray_0"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 21.20575
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_0_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            55.507882,
+            55.507882,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            55.507882,
+            55.507882,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "ESCTray_0"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_1_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -70.357125,
+            70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -70.357125,
+            70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -70.357125,
+            63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -70.357125,
+            63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -63.993164,
+            63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -63.993164,
+            63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -63.993164,
+            70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -63.993164,
+            70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_1_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -21.213203,
+            21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -21.213203,
+            21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_1_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -26.870058,
+            26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -26.870058,
+            26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_1_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -32.173359,
+            32.173359,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -32.173359,
+            32.173359,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "ESCTray_1"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 21.20575
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_1_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -55.507882,
+            55.507882,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -55.507882,
+            55.507882,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "ESCTray_1"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_2_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -70.357125,
+            -70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -70.357125,
+            -70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -63.993164,
+            -70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -63.993164,
+            -70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -63.993164,
+            -63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -63.993164,
+            -63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -70.357125,
+            -63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -70.357125,
+            -63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_2_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -21.213203,
+            -21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -21.213203,
+            -21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_2_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -26.870058,
+            -26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -26.870058,
+            -26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_2_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -32.173359,
+            -32.173359,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -32.173359,
+            -32.173359,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "ESCTray_2"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 21.20575
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_2_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -55.507882,
+            -55.507882,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -55.507882,
+            -55.507882,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "ESCTray_2"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_3_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            70.357125,
+            -70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            70.357125,
+            -70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            70.357125,
+            -63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            70.357125,
+            -63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            63.993164,
+            -63.993164,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            63.993164,
+            -63.993164,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            63.993164,
+            -70.357125,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            63.993164,
+            -70.357125,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_3_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            21.213203,
+            -21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            21.213203,
+            -21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_3_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            26.870058,
+            -26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            26.870058,
+            -26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_3_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            32.173359,
+            -32.173359,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            32.173359,
+            -32.173359,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "ESCTray_3"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 21.20575
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_3_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            55.507882,
+            -55.507882,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            55.507882,
+            -55.507882,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "ESCTray_3"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "nano_board_0",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            -22.55,
+            -22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -22.55,
+            -22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_1",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            -22.55,
+            22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -22.55,
+            22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_2",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            22.55,
+            -22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            22.55,
+            -22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_3",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            22.55,
+            22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            22.55,
+            22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_holder_0",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            -30.0,
+            -10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -30.0,
+            -10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_1",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            -30.0,
+            10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -30.0,
+            10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_2",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            30.0,
+            -10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            30.0,
+            -10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_3",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            30.0,
+            10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            30.0,
+            10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "CenterBatteryBolt_0",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            -28.0,
+            -13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.0,
+            -13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_1",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            -28.0,
+            13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.0,
+            13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_2",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            28.0,
+            -13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.0,
+            -13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_3",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            28.0,
+            13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.0,
+            13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "GPSBaseBolt_0",
+          "category": "GPS support",
+          "head_bearing_point_mm": [
+            -35.5,
+            -6.0,
+            -3.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -35.5,
+            -6.0,
+            3.0
+          ],
+          "owners": [
+            "GPSMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "PowerMountSolid",
+                "overlap_mm3": 10.01206
+              }
+            ]
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "GPSBaseBolt_1",
+          "category": "GPS support",
+          "head_bearing_point_mm": [
+            -35.5,
+            6.0,
+            -3.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -35.5,
+            6.0,
+            3.0
+          ],
+          "owners": [
+            "GPSMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "PowerMountSolid",
+                "overlap_mm3": 10.01206
+              }
+            ]
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "IMUBaseBolt_0",
+          "category": "IMU support",
+          "head_bearing_point_mm": [
+            -14.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -14.0,
+            0.0,
+            -6.0
+          ],
+          "owners": [
+            "IMUMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "IMUBaseBolt_1",
+          "category": "IMU support",
+          "head_bearing_point_mm": [
+            14.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            14.0,
+            0.0,
+            -6.0
+          ],
+          "owners": [
+            "IMUMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "PowerBaseBolt_0",
+          "category": "Power support",
+          "head_bearing_point_mm": [
+            -21.0,
+            -12.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -21.0,
+            -12.0,
+            -6.0
+          ],
+          "owners": [
+            "PowerMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "PowerBaseBolt_1",
+          "category": "Power support",
+          "head_bearing_point_mm": [
+            -21.0,
+            12.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -21.0,
+            12.0,
+            -6.0
+          ],
+          "owners": [
+            "PowerMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_0",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            -10.0,
+            -30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -10.0,
+            -30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkidN1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_1",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            10.0,
+            -30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            10.0,
+            -30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkidN1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_2",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            -10.0,
+            30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -10.0,
+            30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkid1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_3",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            10.0,
+            30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            10.0,
+            30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkid1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "camera_board_0",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            42.694925,
+            -10.5,
+            12.67952
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            36.89937,
+            -10.5,
+            14.232434
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_1",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            46.188982,
+            -10.5,
+            25.719519
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            40.393427,
+            -10.5,
+            27.272433
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_2",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            42.694925,
+            10.5,
+            12.67952
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            36.89937,
+            10.5,
+            14.232434
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_3",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            46.188982,
+            10.5,
+            25.719519
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            40.393427,
+            10.5,
+            27.272433
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_pivot_0",
+          "category": "Camera pivot",
+          "head_bearing_point_mm": [
+            43.0,
+            -20.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "tip_mm": [
+            43.0,
+            -14.0,
+            20.0
+          ],
+          "owners": [
+            "CameraFrameSolid",
+            "CameraBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "3.500 mm bearing-to-nut distance; 0.900 mm tip allowance with 1.6 mm gauge nut"
+        },
+        {
+          "id": "camera_pivot_1",
+          "category": "Camera pivot",
+          "head_bearing_point_mm": [
+            43.0,
+            20.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "tip_mm": [
+            43.0,
+            14.0,
+            20.0
+          ],
+          "owners": [
+            "CameraFrameSolid",
+            "CameraBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "3.500 mm bearing-to-nut distance; 0.900 mm tip allowance with 1.6 mm gauge nut"
+        },
+        {
+          "id": "camera_base_0",
+          "category": "Camera fixed base",
+          "head_bearing_point_mm": [
+            35.0,
+            -19.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.0,
+            -19.0,
+            -4.0
+          ],
+          "owners": [
+            "CameraBaseSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Circular nut recess needs physical retention verification; gauge collisions recorded separately"
+        },
+        {
+          "id": "camera_base_1",
+          "category": "Camera fixed base",
+          "head_bearing_point_mm": [
+            35.0,
+            19.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.0,
+            19.0,
+            -4.0
+          ],
+          "owners": [
+            "CameraBaseSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Circular nut recess needs physical retention verification; gauge collisions recorded separately"
+        }
+      ],
+      "screw_shaft_pair_collisions": [],
+      "excluded_checks": [
+        "Real hardware dimensions and thread strength",
+        "Detailed Nano STEP hardware boolean intersections: separate attempt exceeded 180 s; not established",
+        "Actual motor thread geometry",
+        "Flexible cables and assembly hand/tool ergonomics",
+        "Wi-Fi conductive hardware acceptance; existing keepout remains unresolved"
+      ],
+      "wheelbase_mm": 190
+    },
+    {
+      "quantity": 62,
+      "joints": [
+        {
+          "id": "motor_0_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            73.892659,
+            73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            73.892659,
+            73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            67.528698,
+            73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            67.528698,
+            73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            67.528698,
+            67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            67.528698,
+            67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_0_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            73.892659,
+            67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            73.892659,
+            67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_0_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            21.213203,
+            21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            21.213203,
+            21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_0_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            26.870058,
+            26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            26.870058,
+            26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_0_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            35.708892,
+            35.708892,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.708892,
+            35.708892,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "ESCTray_0"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 4.46901
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_0_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            59.043416,
+            59.043416,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            59.043416,
+            59.043416,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FL",
+            "ESCTray_0"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_1_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -73.892659,
+            73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -73.892659,
+            73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -73.892659,
+            67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -73.892659,
+            67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -67.528698,
+            67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -67.528698,
+            67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_1_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -67.528698,
+            73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -67.528698,
+            73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RL"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_1_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -21.213203,
+            21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -21.213203,
+            21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_1_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -26.870058,
+            26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -26.870058,
+            26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_1_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -35.708892,
+            35.708892,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -35.708892,
+            35.708892,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "ESCTray_1"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 4.46901
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_1_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -59.043416,
+            59.043416,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -59.043416,
+            59.043416,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RL",
+            "ESCTray_1"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_2_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -73.892659,
+            -73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -73.892659,
+            -73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -67.528698,
+            -73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -67.528698,
+            -73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -67.528698,
+            -67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -67.528698,
+            -67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_2_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            -73.892659,
+            -67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -73.892659,
+            -67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_RR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_2_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -21.213203,
+            -21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -21.213203,
+            -21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_2_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            -26.870058,
+            -26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -26.870058,
+            -26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_2_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -35.708892,
+            -35.708892,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -35.708892,
+            -35.708892,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "ESCTray_2"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 4.46901
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_2_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            -59.043416,
+            -59.043416,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -59.043416,
+            -59.043416,
+            -11.0
+          ],
+          "owners": [
+            "Arm_RR",
+            "ESCTray_2"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "motor_3_0",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            73.892659,
+            -73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            73.892659,
+            -73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_1",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            73.892659,
+            -67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            73.892659,
+            -67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_2",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            67.528698,
+            -67.528698,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            67.528698,
+            -67.528698,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "motor_3_3",
+          "category": "Motor mounts",
+          "head_bearing_point_mm": [
+            67.528698,
+            -73.892659,
+            -7.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            67.528698,
+            -73.892659,
+            -1.0
+          ],
+          "owners": [
+            "Arm_FR"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "2 mm nominal motor engagement; real threads, head size and safe depth unknown"
+        },
+        {
+          "id": "arm_3_0",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            21.213203,
+            -21.213203,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            21.213203,
+            -21.213203,
+            1.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 0.60757
+              }
+            ],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 2.61858
+              }
+            ]
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "arm_3_1",
+          "category": "Keyed arm joints",
+          "head_bearing_point_mm": [
+            26.870058,
+            -26.870058,
+            -5.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            26.870058,
+            -26.870058,
+            1.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
+        },
+        {
+          "id": "esc_3_0",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            35.708892,
+            -35.708892,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.708892,
+            -35.708892,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "ESCTray_3"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "CenterBaseSolid",
+                "overlap_mm3": 4.46901
+              }
+            ],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "esc_3_1",
+          "category": "ESC holder to arm",
+          "head_bearing_point_mm": [
+            59.043416,
+            -59.043416,
+            -5.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            59.043416,
+            -59.043416,
+            -11.0
+          ],
+          "owners": [
+            "Arm_FR",
+            "ESCTray_3"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Square open nut cavity has no verified captive-nut retention"
+        },
+        {
+          "id": "nano_board_0",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            -22.55,
+            -22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -22.55,
+            -22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_1",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            -22.55,
+            22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -22.55,
+            22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_2",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            22.55,
+            -22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            22.55,
+            -22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_board_3",
+          "category": "Nano PCB to holder",
+          "head_bearing_point_mm": [
+            22.55,
+            22.55,
+            9.6
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            22.55,
+            22.55,
+            3.6
+          ],
+          "owners": [
+            "P4HolderSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Preload nut from below before mounting holder; center blocks underside access"
+        },
+        {
+          "id": "nano_holder_0",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            -30.0,
+            -10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -30.0,
+            -10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_1",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            -30.0,
+            10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -30.0,
+            10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_2",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            30.0,
+            -10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            30.0,
+            -10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "nano_holder_3",
+          "category": "Nano holder to center",
+          "head_bearing_point_mm": [
+            30.0,
+            10.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            30.0,
+            10.0,
+            -4.0
+          ],
+          "owners": [
+            "P4HolderSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": [
+              {
+                "part": "BatteryCradleSolid",
+                "overlap_mm3": 0.16299
+              }
+            ]
+          },
+          "note": "Circular recess cannot lock hex nut against rotation"
+        },
+        {
+          "id": "CenterBatteryBolt_0",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            -28.0,
+            -13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.0,
+            -13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_1",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            -28.0,
+            13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -28.0,
+            13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_2",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            28.0,
+            -13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.0,
+            -13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "CenterBatteryBolt_3",
+          "category": "Battery cradle to center",
+          "head_bearing_point_mm": [
+            28.0,
+            13.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            28.0,
+            13.0,
+            -6.0
+          ],
+          "owners": [
+            "BatteryCradleSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [
+              {
+                "part": "P4HolderSolid",
+                "overlap_mm3": 25.42854
+              }
+            ],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "GPSBaseBolt_0",
+          "category": "GPS support",
+          "head_bearing_point_mm": [
+            -35.5,
+            -6.0,
+            -3.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -35.5,
+            -6.0,
+            3.0
+          ],
+          "owners": [
+            "GPSMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "PowerMountSolid",
+                "overlap_mm3": 10.01206
+              }
+            ]
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "GPSBaseBolt_1",
+          "category": "GPS support",
+          "head_bearing_point_mm": [
+            -35.5,
+            6.0,
+            -3.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tip_mm": [
+            -35.5,
+            6.0,
+            3.0
+          ],
+          "owners": [
+            "GPSMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [
+              {
+                "part": "PowerMountSolid",
+                "overlap_mm3": 10.01206
+              }
+            ]
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "IMUBaseBolt_0",
+          "category": "IMU support",
+          "head_bearing_point_mm": [
+            -14.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -14.0,
+            0.0,
+            -6.0
+          ],
+          "owners": [
+            "IMUMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "IMUBaseBolt_1",
+          "category": "IMU support",
+          "head_bearing_point_mm": [
+            14.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            14.0,
+            0.0,
+            -6.0
+          ],
+          "owners": [
+            "IMUMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "PowerBaseBolt_0",
+          "category": "Power support",
+          "head_bearing_point_mm": [
+            -21.0,
+            -12.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -21.0,
+            -12.0,
+            -6.0
+          ],
+          "owners": [
+            "PowerMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "PowerBaseBolt_1",
+          "category": "Power support",
+          "head_bearing_point_mm": [
+            -21.0,
+            12.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -21.0,
+            12.0,
+            -6.0
+          ],
+          "owners": [
+            "PowerMountSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_0",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            -10.0,
+            -30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -10.0,
+            -30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkidN1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_1",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            10.0,
+            -30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            10.0,
+            -30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkidN1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_2",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            -10.0,
+            30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            -10.0,
+            30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkid1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "LandingBaseBolt_3",
+          "category": "Landing skids",
+          "head_bearing_point_mm": [
+            10.0,
+            30.0,
+            0.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            10.0,
+            30.0,
+            -6.0
+          ],
+          "owners": [
+            "LandingSkid1",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": true,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": []
+          },
+          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
+        },
+        {
+          "id": "camera_board_0",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            42.694925,
+            -10.5,
+            12.67952
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            36.89937,
+            -10.5,
+            14.232434
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_1",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            46.188982,
+            -10.5,
+            25.719519
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            40.393427,
+            -10.5,
+            27.272433
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_2",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            42.694925,
+            10.5,
+            12.67952
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            36.89937,
+            10.5,
+            14.232434
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_board_3",
+          "category": "Camera PCB to rotating frame",
+          "head_bearing_point_mm": [
+            46.188982,
+            10.5,
+            25.719519
+          ],
+          "axis": [
+            -0.965926,
+            0.0,
+            0.258819
+          ],
+          "tip_mm": [
+            40.393427,
+            10.5,
+            27.272433
+          ],
+          "owners": [
+            "CameraFrameSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "PCB thickness and spacer/head/component clearances unmeasured"
+        },
+        {
+          "id": "camera_pivot_0",
+          "category": "Camera pivot",
+          "head_bearing_point_mm": [
+            43.0,
+            -20.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "tip_mm": [
+            43.0,
+            -14.0,
+            20.0
+          ],
+          "owners": [
+            "CameraFrameSolid",
+            "CameraBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "3.500 mm bearing-to-nut distance; 0.900 mm tip allowance with 1.6 mm gauge nut"
+        },
+        {
+          "id": "camera_pivot_1",
+          "category": "Camera pivot",
+          "head_bearing_point_mm": [
+            43.0,
+            20.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "tip_mm": [
+            43.0,
+            14.0,
+            20.0
+          ],
+          "owners": [
+            "CameraFrameSolid",
+            "CameraBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "3.500 mm bearing-to-nut distance; 0.900 mm tip allowance with 1.6 mm gauge nut"
+        },
+        {
+          "id": "camera_base_0",
+          "category": "Camera fixed base",
+          "head_bearing_point_mm": [
+            35.0,
+            -19.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.0,
+            -19.0,
+            -4.0
+          ],
+          "owners": [
+            "CameraBaseSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Circular nut recess needs physical retention verification; gauge collisions recorded separately"
+        },
+        {
+          "id": "camera_base_1",
+          "category": "Camera fixed base",
+          "head_bearing_point_mm": [
+            35.0,
+            19.0,
+            2.0
+          ],
+          "axis": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "tip_mm": [
+            35.0,
+            19.0,
+            -4.0
+          ],
+          "owners": [
+            "CameraBaseSolid",
+            "CenterBaseSolid"
+          ],
+          "pilot_thread_unverified": false,
+          "gauge_collisions": {
+            "shaft": [],
+            "head": [],
+            "driver": [],
+            "nut_hex_gauge": []
+          },
+          "note": "Circular nut recess needs physical retention verification; gauge collisions recorded separately"
+        }
+      ],
+      "screw_shaft_pair_collisions": [],
+      "excluded_checks": [
+        "Real hardware dimensions and thread strength",
+        "Detailed Nano STEP hardware boolean intersections: separate attempt exceeded 180 s; not established",
+        "Actual motor thread geometry",
+        "Flexible cables and assembly hand/tool ergonomics",
+        "Wi-Fi conductive hardware acceptance; existing keepout remains unresolved"
+      ],
+      "wheelbase_mm": 200
+    }
+  ],
+  "nut_gauge_note": "Solid hexagonal fit gauge at one orientation; actual nut bore, chamfers and tolerances excluded"
+}

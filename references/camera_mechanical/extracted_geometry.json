@@ -1,0 +1,179 @@
+{
+  "source": "RPi_Camera_E_F_G_H_Mechanical.dwg",
+  "source_coordinate_origin": [
+    308.7321981278692,
+    421.33842717050356
+  ],
+  "units": "mm",
+  "entities": [
+    {
+      "type": "LINE",
+      "dwg_handle": 167425,
+      "start": [
+        0.0,
+        0.0
+      ],
+      "end": [
+        0.0,
+        24.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "dwg_handle": 167426,
+      "start": [
+        0.0,
+        24.0
+      ],
+      "end": [
+        25.0,
+        24.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "dwg_handle": 167427,
+      "start": [
+        25.0,
+        24.0
+      ],
+      "end": [
+        25.0,
+        0.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "dwg_handle": 167428,
+      "start": [
+        25.0,
+        0.0
+      ],
+      "end": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167433,
+      "center": [
+        3.5,
+        15.65
+      ],
+      "radius": 0.9
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167434,
+      "center": [
+        21.5,
+        15.65
+      ],
+      "radius": 0.9
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167437,
+      "center": [
+        2.0,
+        22.0
+      ],
+      "radius": 1.1
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167439,
+      "center": [
+        23.0,
+        22.0
+      ],
+      "radius": 1.1
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167467,
+      "center": [
+        2.0,
+        8.5
+      ],
+      "radius": 1.1
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167468,
+      "center": [
+        23.0,
+        8.5
+      ],
+      "radius": 1.1
+    },
+    {
+      "type": "LINE",
+      "dwg_handle": 167469,
+      "start": [
+        8.25,
+        19.9
+      ],
+      "end": [
+        16.75,
+        19.9
+      ]
+    },
+    {
+      "type": "LINE",
+      "dwg_handle": 167470,
+      "start": [
+        8.25,
+        11.4
+      ],
+      "end": [
+        16.75,
+        11.4
+      ]
+    },
+    {
+      "type": "LINE",
+      "dwg_handle": 167471,
+      "start": [
+        8.25,
+        19.9
+      ],
+      "end": [
+        8.25,
+        11.4
+      ]
+    },
+    {
+      "type": "LINE",
+      "dwg_handle": 167472,
+      "start": [
+        16.75,
+        19.9
+      ],
+      "end": [
+        16.75,
+        11.4
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167473,
+      "center": [
+        12.5,
+        15.65
+      ],
+      "radius": 4.25
+    },
+    {
+      "type": "CIRCLE",
+      "dwg_handle": 167474,
+      "center": [
+        12.5,
+        15.65
+      ],
+      "radius": 2.86134617
+    }
+  ],
+  "notes": "Shared front view; no board thickness or Type G fisheye lens depth. The 18 mm dimension is lens-mount-hole spacing, not barrel diameter."
+}

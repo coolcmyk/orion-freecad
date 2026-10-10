@@ -1,0 +1,140 @@
+{
+  "source": "RPi_Camera_E_F_G_H_Mechanical.dwg",
+  "asset": "Waveshare_Camera_G.FCStd",
+  "classification": "Reconstructed reference, not official 3D CAD or a print part",
+  "parameters": [
+    {
+      "alias": "pcb_width",
+      "value_mm": 25,
+      "status": "Specified",
+      "source": "DWG outer rectangle"
+    },
+    {
+      "alias": "pcb_height",
+      "value_mm": 24,
+      "status": "Specified",
+      "source": "DWG outer rectangle"
+    },
+    {
+      "alias": "mount_hole_diameter",
+      "value_mm": 2.2,
+      "status": "Specified",
+      "source": "DWG four mounting circles"
+    },
+    {
+      "alias": "lens_mount_hole_diameter",
+      "value_mm": 1.8,
+      "status": "Specified",
+      "source": "DWG two internal mounting circles"
+    },
+    {
+      "alias": "optical_u",
+      "value_mm": 12.5,
+      "status": "Derived",
+      "source": "DWG circle center relative to board origin"
+    },
+    {
+      "alias": "optical_v",
+      "value_mm": 15.65,
+      "status": "Specified",
+      "source": "DWG optical center to lower board edge"
+    },
+    {
+      "alias": "sensor_footprint",
+      "value_mm": 8.5,
+      "status": "Specified",
+      "source": "Shared DWG central square; not full Type G barrel outline"
+    },
+    {
+      "alias": "pcb_thickness",
+      "value_mm": 1.6,
+      "status": "Proposed",
+      "source": "No side view in DWG; measure purchased PCB"
+    },
+    {
+      "alias": "sensor_height",
+      "value_mm": 2,
+      "status": "Proposed",
+      "source": "No height in DWG"
+    },
+    {
+      "alias": "barrel_diameter",
+      "value_mm": 18,
+      "status": "Proposed",
+      "source": "Retained ORION fisheye envelope; not the DWG 18 mm hole spacing"
+    },
+    {
+      "alias": "lens_depth",
+      "value_mm": 14,
+      "status": "Proposed",
+      "source": "Retained ORION lens depth from front PCB surface"
+    },
+    {
+      "alias": "connector_width",
+      "value_mm": 20.5,
+      "status": "Proposed",
+      "source": "Photo-based packaging estimate; measure connector"
+    },
+    {
+      "alias": "connector_height",
+      "value_mm": 3,
+      "status": "Proposed",
+      "source": "Photo-based packaging estimate"
+    },
+    {
+      "alias": "connector_depth",
+      "value_mm": 2.5,
+      "status": "Proposed",
+      "source": "Rear connector depth estimate"
+    },
+    {
+      "alias": "latch_depth",
+      "value_mm": 1,
+      "status": "Proposed",
+      "source": "Rear latch depth estimate"
+    }
+  ],
+  "holes": [
+    {
+      "u_mm": 2,
+      "v_mm": 8.5,
+      "diameter_mm": 2.2
+    },
+    {
+      "u_mm": 23,
+      "v_mm": 8.5,
+      "diameter_mm": 2.2
+    },
+    {
+      "u_mm": 2,
+      "v_mm": 22,
+      "diameter_mm": 2.2
+    },
+    {
+      "u_mm": 23,
+      "v_mm": 22,
+      "diameter_mm": 2.2
+    },
+    {
+      "u_mm": 3.5,
+      "v_mm": 15.65,
+      "diameter_mm": 1.8
+    },
+    {
+      "u_mm": 21.5,
+      "v_mm": 15.65,
+      "diameter_mm": 1.8
+    }
+  ],
+  "native_part_validity": {
+    "CameraGPCB": true,
+    "CameraGSensorHousing": true,
+    "CameraGLensShoulder": true,
+    "CameraGFisheyeBarrel": true,
+    "CameraGFocusRim": true,
+    "CameraGOpticalFace": true,
+    "CameraGRearFFC": true,
+    "CameraGFFCLatch": true
+  },
+  "warning": "All depths, complete Type G barrel dimensions and connector packaging require actual measurement."
+}

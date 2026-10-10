@@ -163,16 +163,16 @@
       "print_quantity": 1,
       "valid_single_cad_solid": true,
       "closed_mesh": true,
-      "facets": 1708,
-      "cad_volume_mm3": 947.9894,
+      "facets": 1660,
+      "cad_volume_mm3": 1032.4208,
       "bounds_mm": [
-        7.992,
-        33.0,
+        8.0,
+        36.0,
         28.0
       ],
       "translation_mm": [
         4.0,
-        16.5,
+        18.0,
         17.65
       ]
     },
@@ -182,15 +182,15 @@
       "print_quantity": 1,
       "valid_single_cad_solid": true,
       "closed_mesh": true,
-      "facets": 1364,
-      "cad_volume_mm3": 719.7246,
+      "facets": 1212,
+      "cad_volume_mm3": 712.6867,
       "bounds_mm": [
-        15.0,
+        17.5,
         42.0,
-        20.0
+        24.0
       ],
       "translation_mm": [
-        -32.0,
+        -29.5,
         21.0,
         -0.0
       ]
@@ -233,5 +233,6 @@
         -0.0
       ]
     }
-  ]
+  ],
+  "camera_revision": "Forward lean -15 deg; nominal -20 to +30 deg sampled; see camera_mount_checks.json. Other fastener defects remain."
 }

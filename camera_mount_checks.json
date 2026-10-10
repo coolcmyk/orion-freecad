@@ -1,0 +1,156 @@
+{
+  "status": "PASS nominal camera CAD/gauges",
+  "default_tilt_deg": -15,
+  "nominal_tilt_range_deg": [
+    -20,
+    30
+  ],
+  "gauge_dimensions": {
+    "shaft_diameter_mm": 2,
+    "under_head_length_mm": 6,
+    "head_diameter_mm": 4.6,
+    "head_height_mm": 2,
+    "nut_across_flats_mm": 4.156922,
+    "nut_height_mm": 1.6,
+    "driver_diameter_mm": 3,
+    "driver_access_length_mm": 12
+  },
+  "poses": [
+    {
+      "wheelbase_mm": 180,
+      "tilt_deg": -20,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 180,
+      "tilt_deg": -15,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 180,
+      "tilt_deg": 0,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 180,
+      "tilt_deg": 15,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 180,
+      "tilt_deg": 30,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 190,
+      "tilt_deg": -20,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 190,
+      "tilt_deg": -15,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 190,
+      "tilt_deg": 0,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 190,
+      "tilt_deg": 15,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 190,
+      "tilt_deg": 30,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 200,
+      "tilt_deg": -20,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 200,
+      "tilt_deg": -15,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 200,
+      "tilt_deg": 0,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 200,
+      "tilt_deg": 15,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    },
+    {
+      "wheelbase_mm": 200,
+      "tilt_deg": 30,
+      "recompute_errors": [],
+      "valid_single_camera_solids": true,
+      "camera_part_intersections": [],
+      "camera_fastener_gauge_hits": [],
+      "camera_shaft_pair_hits": []
+    }
+  ],
+  "limits": "Sampled angles only; physical hardware, FFC bends, lens package, print strength, detailed Nano and real propeller clearance remain unverified. Other frame screw defects remain."
+}

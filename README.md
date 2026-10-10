@@ -1,6 +1,10 @@
 # ORION FreeCAD frame
 
+See [SETUP.md](SETUP.md) for the brief printing and assembly guide.
+
 Editable **fit prototype** built in the local FreeCAD 1.1.3 instance through FreeCAD MCP from `SPEC.md` revision 0.3. Open `ORION_frame.FCStd`; the saved assembly uses a 190 mm diagonal wheelbase.
+
+**Screw assembly audit: FAIL.** The later audit of all 62 proposed screws found interference and blocked tool access that the original printed-part collision checks did not include. See `SCREW_AUDIT.md` and `screw_audit.json`. The current CAD and STL exports need fastening revisions before full-frame printing.
 
 The model includes four replaceable linked arms, keyed center joints, four-hole Ø9 mm motor patterns, the official ESP32-P4 Nano STEP reference, a removable Nano holder, four underside ESC trays, a sliding battery cradle with two strap paths, an adjustable front camera frame, GPS/IMU/power supports, landing skids, component envelopes, finite cable-route guides and clearance objects.
 
@@ -16,12 +20,14 @@ Edit column B in the FreeCAD `Parameters` spreadsheet, then recompute. Each inpu
 - `motor_mount_plate_mm`: 4 mm prototype pad. With M2×6 and no washer this gives 2 mm arithmetic engagement; safe motor thread depth is still unknown.
 - `holder_fit_clearance_mm`: specified layout allowance; holders also have their documented source dimensions in native Part features. Inspect those source dimensions when refining a holder.
 - `battery_offset_x_mm`: planned adjustment from −5 to +5 mm. Straps, leads and connector access require actual fit verification.
-- `camera_tilt_deg`: default 15° upward relative to +X. The model retains the camera's offset hole pattern and the optical-center datum.
+- `camera_tilt_deg`: default −15° downward relative to +X, matching the requested forward lean. The revised mount was checked at −20°, −15°, 0°, 15° and 30° at each wheelbase. Pivot height is 20 mm. Top-entry pivot nut pockets and relocated uprights accommodate the trial M2×6 hardware; see `camera_mount_checks.json`. Actual lens, cable and hardware dimensions remain unverified.
 - `layout_*` aliases: explicitly unmeasured packaging surrogates. They do not resolve the corresponding actual-hardware TBD aliases.
 
 The primary center and arm sketches are fully constrained. Other manufactured shapes use editable native Part primitives, unions and cuts. No third-party workbench or Python proxy is required to open the model. Intermediate master shapes are hidden; assembly links remain visible. Showing `ArmSolid` also displays the unrotated master, which appears as an extra arm.
 
 ## References and clearance
+
+The non-printable Type G camera reference is reconstructed from the official shared DWG. Its native FCStd, STEP and parameter provenance are in `references/camera_g_reconstructed/`. Board outline, mounting holes and optical center follow the drawing; full fisheye barrel, PCB thickness and rear connector depths remain proposed. A candidate rear FFC opening has been added to the camera frame. See that directory's README before using the reference for physical fit.
 
 `OfficialNanoSTEP` is a non-printable compound derived from the [manufacturer STEP archive](https://files.waveshare.com/wiki/ESP32-P4-NANO/ESP32-P4-Nano.zip); its original archive, STEP, PDF and DXF are retained in `references/`. The imported assembly has 864 solids, consolidated to avoid thousands of nested tree objects. It is placed with the PCB underside at Z=8 mm and PCB top at Z=9.6 mm.
 
@@ -50,7 +56,7 @@ Small 1.7 mm pilot holes in several mounts are proposed retention interfaces, no
 5. Install GPS and camera supports, then the Nano holder and board. Verify actual components, insulation, cable bends, ports/card removal and antenna clearance.
 6. Validate clearance with installed props, and record physical fit, print settings, mass and balance before any manufacturing release.
 
-An arm is removed from below, through its two recessed joint screws; reliefs in the Nano holder preserve access to the upper nut seats. The corresponding ESC tray is independently removable using its two arm screws. Frame screws may remain captive only after actual nut-retention fit is established.
+The intended arm removal direction is from below through its two recessed joint screws. The screw audit shows the existing holder reliefs are insufficient for the inner joints, and inner ESC screw tool access is blocked with the arms installed. The assembly order above is therefore provisional and does not establish independent service access. Frame screws may remain captive only after actual nut-retention fit is established.
 
 Printing orientations, supports, material, wall count and infill remain TBD. The prototype export script translates each part to a local nonnegative bounding box; this is an export coordinate convention, not an accepted slicer orientation.
 

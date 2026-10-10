@@ -1,16 +1,16 @@
 joint,standard,quantity,status,interface_notes
-Motor mounts,M2x6,16,Proposed,Four per motor; 4 mm pad gives 2 mm nominal engagement; safe depth and head dimensions TBD
-Keyed arm joints,M2x6,8,Proposed,Two per arm; head and nut recesses are coupon candidates
-ESC holder to arm,M2x6,8,Proposed,Two per tray; head recess and accessible nut pocket need fit verification
-Nano PCB to holder,M2x6,4,Proposed,1.6 mm board and 2 mm upper boss cap; hardware material must satisfy Wi-Fi keepout
-Nano holder to center,M2x6,4,Proposed,Open ring with four tabs; nut recess and Wi-Fi-zone hardware material unresolved
-Battery cradle to center,M2x6,4,Proposed,Printed pilot/insert interface and strap/connector geometry TBD
-Camera PCB to rotating frame,M2x6,4,Proposed,Offset four-hole pattern; measured PCB/spacer/nut stack required
-Camera pivot,M2x6,2,Proposed,Rotating 2 mm ear plus 1.8 mm fixed ear and nominal gap; actual nut/head stack TBD
-Camera fixed base,M2x6,2,Proposed,Base to center with underside nut recess; RF clearance unresolved
-GPS support,M2x6,2,Proposed,Underside access to center and proposed pilot in support; actual interface TBD
-IMU support,M2x6,2,Proposed,Top access into proposed support pilot; axes/isolation/header fit TBD
-Power support,M2x6,2,Proposed,Top access into proposed support pilot; actual regulator/harness package TBD
-Landing skids,M2x6,4,Proposed,Two per skid outside Nano footprint; actual pilot/insert engagement TBD
-TOTAL,M2x6,62,Proposed,Additional 50 beyond current 12; final BOM awaits measured interfaces
+Motor mounts,M2x6,16,Unverified,Four per motor; 4 mm pad gives 2 mm nominal engagement; safe depth and head dimensions TBD; nominal printed-part gauges clear; actual hardware fit remains unverified
+Keyed arm joints,M2x6,8,CAD defect,Two per arm; head and nut recesses are coupon candidates; Audit: four inner screw tips hit Nano holder; trial nut interference; outer driver paths blocked at 180 mm
+ESC holder to arm,M2x6,8,Access blocked,Two per tray; head recess and accessible nut pocket need fit verification; Audit: four inner driver paths hit center plate; independent service access fails
+Nano PCB to holder,M2x6,4,Unverified,1.6 mm board and 2 mm upper boss cap; hardware material must satisfy Wi-Fi keepout; Audit: nominal stack fits; nut preloading required; detailed Nano STEP hardware collisions unverified
+Nano holder to center,M2x6,4,Gauge interference,Open ring with four tabs; nut recess and Wi-Fi-zone hardware material unresolved; Audit: four trial hex nuts hit battery supports; circular pockets do not prevent rotation
+Battery cradle to center,M2x6,4,Gauge interference,Printed pilot/insert interface and strap/connector geometry TBD; Audit: four trial screw heads hit Nano holder; pilot retention unverified
+Camera PCB to rotating frame,M2x6,4,Unverified,Offset four-hole pattern; measured PCB/spacer/nut stack required; nominal printed-part gauges clear; actual hardware fit remains unverified
+Camera pivot,M2x6,2,Nominal CAD pass,Revised 3.5 mm pivot grip plus 1.6 mm trial nut leaves 0.9 mm tip allowance; top-entry hex pockets; sampled -20 to +30 degrees; actual hardware and strength unverified
+Camera fixed base,M2x6,2,Nominal CAD pass,M2x6 base screws remain at X35; uprights moved to X39 for trial head and driver clearance; actual hardware and circular nut retention unverified
+GPS support,M2x6,2,Access blocked,Underside access to center and proposed pilot in support; actual interface TBD; Audit: underside driver paths hit installed power tray; assembly order required
+IMU support,M2x6,2,Unverified,Top access into proposed support pilot; axes/isolation/header fit TBD; nominal printed-part gauges clear; actual hardware fit remains unverified
+Power support,M2x6,2,Unverified,Top access into proposed support pilot; actual regulator/harness package TBD; nominal printed-part gauges clear; actual hardware fit remains unverified
+Landing skids,M2x6,4,Unverified,Two per skid outside Nano footprint; actual pilot/insert engagement TBD; nominal printed-part gauges clear; actual hardware fit remains unverified
+TOTAL,M2x6,62,Audit failed,Additional 50 beyond current 12; final BOM awaits measured interfaces; 62 joints audited at 180/190/200 mm; current CAD requires fastening revisions
 Spare hardware,M2x4,12,Unused,Not allocated to this design

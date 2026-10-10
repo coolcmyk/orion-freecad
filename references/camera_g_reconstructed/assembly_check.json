@@ -1,0 +1,7 @@
+{
+  "status": "PASS nominal camera reconstruction at default pose",
+  "document_object_count": 474,
+  "recompute_errors": [],
+  "camera_component_intersections_with_other_print_parts_and_prop_sweeps": [],
+  "limits": "Provisional lens and rear connector dimensions; sampled tilt mount checks recorded separately; other screw audit defects remain."
+}
