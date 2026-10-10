@@ -6,7 +6,7 @@
 
 - Open `ORION_frame.FCStd` in FreeCAD; use the `Parameters` spreadsheet to select the wheelbase (default 190 mm).
 - Measure the purchased components and screw heads/nuts. Record results in `measurements.csv`; finalize nut/insert interfaces in `fasteners.csv`. Existing 1.7 mm pilots are not verified threads or insert seats.
-- Gather matching drivers, a nut tool, calipers, straps/cable ties and electrical insulation. The provisional BOM uses **62 M2×6 screws** (50 more than the 12 owned); M2×4 remain spares. Nut quantities/types depend on the corrected joints.
+- Gather matching drivers, a nut tool, calipers, straps/cable ties and electrical insulation. The provisional BOM uses **52 M2×6 screws** (40 more than the 12 owned); M2×4 remain spares. Nut quantities/types depend on the corrected joints.
 - Recompute and recheck the corrected model, including installed fasteners, tool paths and antenna clearance. Re-export the printable solids; existing `export/prototypes/` files contain the audited defects.
 
 ## 2. Print and fit-check
@@ -20,22 +20,23 @@
 | STL (`ORION_` prefix) | Quantity |
 |---|---:|
 | `arm.stl` | 4 total |
-| `esc_holder.stl` | 4 |
 | `landing_skid.stl` | 2 |
 | `center_base.stl`, `p4_holder.stl`, `battery_mount.stl` | 1 each |
-| `gps_mount.stl`, `imu_mount.stl`, `power_mount.stl` | 1 each |
+| `gps_mount.stl`, `imu_mount.stl` | 1 each |
 | `camera_mount.stl`, `camera_base_mount.stl` | 1 each |
 
 ## 3. Assemble
 
 Keep the battery disconnected and propellers off during assembly.
 
-1. **Arm modules:** attach each motor with four screws. Fit each ESC tray to its arm before joining the center if top access requires it. Strap the insulated ESC into the open tray; route motor leads through the two small cable-tie slots for strain relief.
+1. **Arm modules:** attach each motor with four screws. The four ESCs now sit on top, two along each side of the center. Put a proposed 0.5 mm insulating pad under each ESC and secure it through the two integrated tie-finger slots with narrow nylon ties (nominal width ≤1.8 mm; check actual slot fit). Protect the electronics from tie pressure. Verify solder/lead clearance, ventilation and tie tails against the propellers; route leads with strain relief. ESCs need no tray screws.
 2. **Frame:** seat the four keyed arm roots under the center plate. Fit their nuts and two screws per arm from below. Check seating and tighten without crushing the print.
-3. **Supports:** attach the GPS support before the power tray, then the landing skids, battery cradle, IMU and power supports. Fit the GPS facing upward and the IMU in the orientation required by the firmware.
+3. **Supports:** attach the GPS support, landing skids, battery cradle and IMU support. Fit the GPS facing upward and the IMU in the orientation required by the firmware.
 4. **Camera:** drop the pivot nuts into the rotating frame's top-entry hex pockets before fitting the PCB. Attach the PCB using its four board holes, fit the frame between the fixed ears, insert the two M2×6 pivot screws from the outside and attach the base. Default tilt is −15° (downward); sampled nominal range is −20° to +30°. Loosen both pivots to adjust, then retighten. Leave slack for the camera cable throughout its travel; actual hardware and cable fit still require checks.
 5. **Nano:** preload and hold the board nuts inside the holder before it goes onto the center plate. Secure the Nano PCB, then mount the holder. Confirm arm fasteners remain serviceable and hardware/wiring stays outside the antenna keepout.
 6. **Wiring and battery:** connect motor/ESC, power, camera and sensor wiring using verified component pinouts and a verified power/regulator plan. This mechanical guide does not define electrical pin assignments. Insulate joints, secure cables clear of moving parts and strap the battery into its cradle.
+
+The proposed power block and printed power tray were removed. Actual battery distribution and regulated electronics power still need a verified wiring and retention plan.
 
 ## 4. Final checks
 

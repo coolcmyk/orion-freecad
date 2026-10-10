@@ -1,3 +1,5 @@
+> Branch revision 2026-10-11: the eight ESC-tray screws and two power-tray screws are removed (52 remaining). Those old obstructions are historical; `screw_audit.json` is the current geometry report. The detailed table below records the earlier 62-joint audit. The refreshed audit has no shaft-pair collisions or driver obstructions at any tested wheelbase; remaining recorded collisions are four inner arm tip/nut contacts with the Nano holder, four Nano-holder nut contacts with battery supports, and four battery screw-head contacts with the Nano holder. Actual hardware/thread/antenna suitability remains unverified.
+
 # Screw assembly audit — 2026-10-10
 
 **Result: FAIL. The current model is not ready for full-frame printing.**

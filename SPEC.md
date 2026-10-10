@@ -426,3 +426,7 @@ FreeCAD implementation references:
 | 0.1 | 2026-10-10 | Initial Nano / four-ESC frame specification; explicit size definitions, measurement gates, and 3D prop-clearance model |
 | 0.2 | 2026-10-10 | Added supplied battery/ESC/prop/motor/sensor dimensions, Nano drawing, OV5647 Type G baseline, nominal mass subtotal, and M2×4/M2×6 inventory; narrowed remaining measurements |
 | 0.3 | 2026-10-10 | Researched manufacturer drawings/CAD; corrected motor Ø9 bolt circle, Nano holes/heights, camera mounting coordinates and GPS total height; onboard Wi-Fi only; standardized M2×6 fastening and noted additional screw quantities |
+
+### Branch design revision — 2026-10-11
+
+User-authorized on `feat/top-esc-retention`: replace FR-11’s separate arm-mounted ESC holders with four insulated ESCs secured by two nylon ties each to top-side fingers integrated into the center plate. Keep ESCs individually removable by cutting/replacing ties. Remove the provisional regulator/PDB envelope, its printed power tray and two mounting joints; retain the requirement for verified electrical power distribution, regulation, insulation and cable retention once actual hardware is selected. This supersedes the separate-ESC-holder and candidate-power-tray geometry for this branch only. Remaining mechanical and electrical verification requirements still apply.

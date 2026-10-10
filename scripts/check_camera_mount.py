@@ -19,6 +19,8 @@ components += ['ESCEnvelope'+str(i) for i in range(4)]+['ExpandedPropSweep'+str(
 if doc.getObject('CameraGReconstruction'):
     components += ['CameraGPCB','CameraGSensorHousing','CameraGLensShoulder','CameraGFisheyeBarrel',
                    'CameraGFocusRim','CameraGOpticalFace','CameraGRearFFC','CameraGFFCLatch']
+other=[n for n in other if doc.getObject(n)]
+components=[n for n in components if doc.getObject(n)]
 results=[]
 try:
     for wb in [180,190,200]:

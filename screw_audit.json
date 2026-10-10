@@ -11,10 +11,10 @@
     "driver_access_length_mm": 12
   },
   "gauge_warning": "Hypothetical hardware gauges; do not infer purchased hardware dimensions",
-  "source_document": "/home/kyo/ws/orion/ORION_frame.FCStd",
+  "source_document": "/tmp/orion-top-esc-candidate.FCStd",
   "variants": [
     {
-      "quantity": 62,
+      "quantity": 52,
       "joints": [
         {
           "id": "motor_0_0",
@@ -199,86 +199,10 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "ESCTray_0",
-                "overlap_mm3": 7.70587
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_0_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            28.637825,
-            28.637825,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            28.637825,
-            28.637825,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FL",
-            "ESCTray_0"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 9.18313
-              },
-              {
-                "part": "Arm_FL",
-                "overlap_mm3": 2.16553
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_0_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            51.972348,
-            51.972348,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            51.972348,
-            51.972348,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FL",
-            "ESCTray_0"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
             "driver": [],
             "nut_hex_gauge": []
           },
-          "note": "Square open nut cavity has no verified captive-nut retention"
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
           "id": "motor_1_0",
@@ -463,86 +387,10 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "ESCTray_1",
-                "overlap_mm3": 7.70587
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_1_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -28.637825,
-            28.637825,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -28.637825,
-            28.637825,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RL",
-            "ESCTray_1"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 9.18313
-              },
-              {
-                "part": "Arm_RL",
-                "overlap_mm3": 2.16553
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_1_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -51.972348,
-            51.972348,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -51.972348,
-            51.972348,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RL",
-            "ESCTray_1"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
             "driver": [],
             "nut_hex_gauge": []
           },
-          "note": "Square open nut cavity has no verified captive-nut retention"
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
           "id": "motor_2_0",
@@ -727,86 +575,10 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "ESCTray_2",
-                "overlap_mm3": 7.70587
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_2_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -28.637825,
-            -28.637825,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -28.637825,
-            -28.637825,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RR",
-            "ESCTray_2"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 9.18313
-              },
-              {
-                "part": "Arm_RR",
-                "overlap_mm3": 2.16553
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_2_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -51.972348,
-            -51.972348,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -51.972348,
-            -51.972348,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RR",
-            "ESCTray_2"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
             "driver": [],
             "nut_hex_gauge": []
           },
-          "note": "Square open nut cavity has no verified captive-nut retention"
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
           "id": "motor_3_0",
@@ -991,86 +763,10 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "ESCTray_3",
-                "overlap_mm3": 7.70587
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_3_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            28.637825,
-            -28.637825,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            28.637825,
-            -28.637825,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FR",
-            "ESCTray_3"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 9.18313
-              },
-              {
-                "part": "Arm_FR",
-                "overlap_mm3": 2.16553
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_3_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            51.972348,
-            -51.972348,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            51.972348,
-            -51.972348,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FR",
-            "ESCTray_3"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
             "driver": [],
             "nut_hex_gauge": []
           },
-          "note": "Square open nut cavity has no verified captive-nut retention"
+          "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
           "id": "nano_board_0",
@@ -1502,12 +1198,7 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "PowerMountSolid",
-                "overlap_mm3": 10.01206
-              }
-            ]
+            "driver": []
           },
           "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
         },
@@ -1537,12 +1228,7 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "PowerMountSolid",
-                "overlap_mm3": 10.01206
-              }
-            ]
+            "driver": []
           },
           "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
         },
@@ -1596,66 +1282,6 @@
           ],
           "owners": [
             "IMUMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "PowerBaseBolt_0",
-          "category": "Power support",
-          "head_bearing_point_mm": [
-            -21.0,
-            -12.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -21.0,
-            -12.0,
-            -6.0
-          ],
-          "owners": [
-            "PowerMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "PowerBaseBolt_1",
-          "category": "Power support",
-          "head_bearing_point_mm": [
-            -21.0,
-            12.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -21.0,
-            12.0,
-            -6.0
-          ],
-          "owners": [
-            "PowerMountSolid",
             "CenterBaseSolid"
           ],
           "pilot_thread_unverified": true,
@@ -2042,7 +1668,7 @@
       "wheelbase_mm": 180
     },
     {
-      "quantity": 62,
+      "quantity": 52,
       "joints": [
         {
           "id": "motor_0_0",
@@ -2233,73 +1859,6 @@
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
-          "id": "esc_0_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            32.173359,
-            32.173359,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            32.173359,
-            32.173359,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FL",
-            "ESCTray_0"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 21.20575
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_0_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            55.507882,
-            55.507882,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            55.507882,
-            55.507882,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FL",
-            "ESCTray_0"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
           "id": "motor_1_0",
           "category": "Motor mounts",
           "head_bearing_point_mm": [
@@ -2486,73 +2045,6 @@
             "nut_hex_gauge": []
           },
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_1_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -32.173359,
-            32.173359,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -32.173359,
-            32.173359,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RL",
-            "ESCTray_1"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 21.20575
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_1_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -55.507882,
-            55.507882,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -55.507882,
-            55.507882,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RL",
-            "ESCTray_1"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
         },
         {
           "id": "motor_2_0",
@@ -2743,73 +2235,6 @@
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
-          "id": "esc_2_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -32.173359,
-            -32.173359,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -32.173359,
-            -32.173359,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RR",
-            "ESCTray_2"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 21.20575
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_2_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -55.507882,
-            -55.507882,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -55.507882,
-            -55.507882,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RR",
-            "ESCTray_2"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
           "id": "motor_3_0",
           "category": "Motor mounts",
           "head_bearing_point_mm": [
@@ -2996,73 +2421,6 @@
             "nut_hex_gauge": []
           },
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_3_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            32.173359,
-            -32.173359,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            32.173359,
-            -32.173359,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FR",
-            "ESCTray_3"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 21.20575
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_3_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            55.507882,
-            -55.507882,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            55.507882,
-            -55.507882,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FR",
-            "ESCTray_3"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
         },
         {
           "id": "nano_board_0",
@@ -3494,12 +2852,7 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "PowerMountSolid",
-                "overlap_mm3": 10.01206
-              }
-            ]
+            "driver": []
           },
           "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
         },
@@ -3529,12 +2882,7 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "PowerMountSolid",
-                "overlap_mm3": 10.01206
-              }
-            ]
+            "driver": []
           },
           "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
         },
@@ -3588,66 +2936,6 @@
           ],
           "owners": [
             "IMUMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "PowerBaseBolt_0",
-          "category": "Power support",
-          "head_bearing_point_mm": [
-            -21.0,
-            -12.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -21.0,
-            -12.0,
-            -6.0
-          ],
-          "owners": [
-            "PowerMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "PowerBaseBolt_1",
-          "category": "Power support",
-          "head_bearing_point_mm": [
-            -21.0,
-            12.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -21.0,
-            12.0,
-            -6.0
-          ],
-          "owners": [
-            "PowerMountSolid",
             "CenterBaseSolid"
           ],
           "pilot_thread_unverified": true,
@@ -4034,7 +3322,7 @@
       "wheelbase_mm": 190
     },
     {
-      "quantity": 62,
+      "quantity": 52,
       "joints": [
         {
           "id": "motor_0_0",
@@ -4225,73 +3513,6 @@
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
-          "id": "esc_0_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            35.708892,
-            35.708892,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            35.708892,
-            35.708892,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FL",
-            "ESCTray_0"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 4.46901
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_0_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            59.043416,
-            59.043416,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            59.043416,
-            59.043416,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FL",
-            "ESCTray_0"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
           "id": "motor_1_0",
           "category": "Motor mounts",
           "head_bearing_point_mm": [
@@ -4478,73 +3699,6 @@
             "nut_hex_gauge": []
           },
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_1_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -35.708892,
-            35.708892,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -35.708892,
-            35.708892,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RL",
-            "ESCTray_1"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 4.46901
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_1_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -59.043416,
-            59.043416,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -59.043416,
-            59.043416,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RL",
-            "ESCTray_1"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
         },
         {
           "id": "motor_2_0",
@@ -4735,73 +3889,6 @@
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
         },
         {
-          "id": "esc_2_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -35.708892,
-            -35.708892,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -35.708892,
-            -35.708892,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RR",
-            "ESCTray_2"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 4.46901
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_2_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            -59.043416,
-            -59.043416,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -59.043416,
-            -59.043416,
-            -11.0
-          ],
-          "owners": [
-            "Arm_RR",
-            "ESCTray_2"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
           "id": "motor_3_0",
           "category": "Motor mounts",
           "head_bearing_point_mm": [
@@ -4988,73 +4075,6 @@
             "nut_hex_gauge": []
           },
           "note": "Nut pocket 1.2 mm deep; gauge nut projects 0.4 mm above plate"
-        },
-        {
-          "id": "esc_3_0",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            35.708892,
-            -35.708892,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            35.708892,
-            -35.708892,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FR",
-            "ESCTray_3"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [
-              {
-                "part": "CenterBaseSolid",
-                "overlap_mm3": 4.46901
-              }
-            ],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
-        },
-        {
-          "id": "esc_3_1",
-          "category": "ESC holder to arm",
-          "head_bearing_point_mm": [
-            59.043416,
-            -59.043416,
-            -5.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            59.043416,
-            -59.043416,
-            -11.0
-          ],
-          "owners": [
-            "Arm_FR",
-            "ESCTray_3"
-          ],
-          "pilot_thread_unverified": false,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": [],
-            "nut_hex_gauge": []
-          },
-          "note": "Square open nut cavity has no verified captive-nut retention"
         },
         {
           "id": "nano_board_0",
@@ -5486,12 +4506,7 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "PowerMountSolid",
-                "overlap_mm3": 10.01206
-              }
-            ]
+            "driver": []
           },
           "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
         },
@@ -5521,12 +4536,7 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [
-              {
-                "part": "PowerMountSolid",
-                "overlap_mm3": 10.01206
-              }
-            ]
+            "driver": []
           },
           "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
         },
@@ -5580,66 +4590,6 @@
           ],
           "owners": [
             "IMUMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "PowerBaseBolt_0",
-          "category": "Power support",
-          "head_bearing_point_mm": [
-            -21.0,
-            -12.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -21.0,
-            -12.0,
-            -6.0
-          ],
-          "owners": [
-            "PowerMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "PowerBaseBolt_1",
-          "category": "Power support",
-          "head_bearing_point_mm": [
-            -21.0,
-            12.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -21.0,
-            12.0,
-            -6.0
-          ],
-          "owners": [
-            "PowerMountSolid",
             "CenterBaseSolid"
           ],
           "pilot_thread_unverified": true,

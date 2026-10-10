@@ -33,10 +33,10 @@ def audit_variant(categories=None):
     parts = ['CenterBaseSolid', 'P4HolderSolid', 'BatteryCradleSolid', 'GPSMountSolid',
              'IMUMountSolid', 'PowerMountSolid', 'CameraFrameSolid', 'CameraBaseSolid']
     parts += [o.Name for o in doc.Objects if o.TypeId == 'App::Link']
-    shapes = {n:world(doc.getObject(n)) for n in parts}
+    shapes = {n:world(doc.getObject(n)) for n in parts if doc.getObject(n)}
     components = {n:world(doc.getObject(n)) for n in
                   ['BatteryEnvelope','GPSEnvelope','IMUEnvelope','PowerPackageProposed',
-                   'CameraPCBReference','CameraLensProposed'] + ['ESCEnvelope'+str(i) for i in range(4)]}
+                   'CameraPCBReference','CameraLensProposed'] + ['ESCEnvelope'+str(i) for i in range(4)] if doc.getObject(n)}
     if doc.getObject('CameraGReconstruction'):
         for name in ['CameraGPCB','CameraGSensorHousing','CameraGLensShoulder','CameraGFisheyeBarrel',
                      'CameraGFocusRim','CameraGOpticalFace','CameraGRearFFC','CameraGFFCLatch']:
