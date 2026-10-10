@@ -6,7 +6,7 @@ Editable **fit prototype** built in the local FreeCAD 1.1.3 instance through Fre
 
 **Screw assembly audit: FAIL.** The later audit of all 62 proposed screws found interference and blocked tool access that the original printed-part collision checks did not include. See `SCREW_AUDIT.md` and `screw_audit.json`. The current CAD and STL exports need fastening revisions before full-frame printing.
 
-The model includes four replaceable linked arms, keyed center joints, four-hole Ø9 mm motor patterns, the official ESP32-P4 Nano STEP reference, a removable Nano holder, four top-mounted ESCs on center-integrated cable-tie fingers, a sliding battery cradle with two strap paths, an adjustable front camera frame, GPS/IMU supports, landing skids, component envelopes, finite cable-route guides and clearance objects.
+The model includes four replaceable linked arms, keyed center joints, four-hole Ø9 mm motor patterns, the official ESP32-P4 Nano STEP reference, a removable Nano holder, four ESCs secured lengthwise on top of the arms, a sliding battery cradle with two strap paths, an adjustable front camera frame, shared GPS/IMU support, landing skids, component envelopes, finite cable-route guides and clearance objects.
 
 **Manufacturing release is pending.** Geometry driven by unmeasured interfaces is explicitly Proposed; actual measurement aliases remain TBD. Prototype meshes are under `export/prototypes/`. No accepted production STLs are supplied at the spec's release paths.
 
@@ -45,13 +45,13 @@ The model checks separate printed-part collisions, specified/proposed component 
 
 ## Fasteners and assembly
 
-The candidate joint list in `fasteners.csv` uses M2×6 throughout. It totals **52 screws if all proposed joints are retained**, including four screws per motor and two per arm joint. Against 12 purchased M2×6 this is 40 additional screws. M2×4 stock is unallocated spare hardware. This is a provisional joint plan; final head, nut/insert, material and engagement choices can change holder joints and quantities.
+The candidate joint list in `fasteners.csv` uses M2×6 throughout. It totals **50 screws if all proposed joints are retained**, including four screws per motor and two per arm joint. Against 12 purchased M2×6 this is 38 additional screws. M2×4 stock is unallocated spare hardware. This is a provisional joint plan; final head, nut/insert, material and engagement choices can change holder joints and quantities.
 
 Small 1.7 mm pilot holes in several mounts are proposed retention interfaces, not verified printed threads or insert specifications. Measure and revise them before manufacturing. The two small rectangular slots near each motor pad are cable-tie strain-relief paths.
 
 1. Print the tolerance coupon and one arm; check holes, motor seating and safe M2×6 engagement on the purchased motor.
 2. Fit the keyed arm roots to the center plate. Install four motor screws and two root screws per arm.
-3. Insulate and tie the four top-mounted ESCs to the integrated center-plate fingers, two per side. Electrical disconnection or unsoldering may still be required during arm replacement.
+3. Insulate and tie one ESC lengthwise to each arm using the two pairs of arm slots. Electrical disconnection or unsoldering may still be required during arm replacement.
 4. Install landing skids, battery cradle and underside IMU/power supports. Fit the battery straps, connectors and adjustment range.
 5. Install GPS and camera supports, then the Nano holder and board. Verify actual components, insulation, cable bends, ports/card removal and antenna clearance.
 6. Validate clearance with installed props, and record physical fit, print settings, mass and balance before any manufacturing release.
@@ -64,10 +64,22 @@ Printing orientations, supports, material, wall count and infill remain TBD. The
 
 The native FCStd is authoritative. `scripts/build_orion.py` creates the initial native model after the official STEP import. `scripts/finalize_orion.py` records the subsequent attachment-interface changes. `scripts/check_orion.py` checks the live document; `scripts/export_orion.py` writes prototype meshes and screenshots. Build/finalization scripts are one-time construction transcripts and use the live builder namespace; do not rerun them over the completed document. Normal edits use native objects and the parameter sheet.
 
-## Top ESC branch revision
+## Arm-top ESC branch revision
 
-On `feat/top-esc-retention`, the four separate ESC trays, their eight mounting screws and arm holes, and the proposed power package/tray with its two mounting holes are removed. Two ESCs sit at X=±13 mm, Y=+42.5 mm; the other pair sits at X=±13 mm, Y=−51 mm, beyond the modeled antenna keepout. Each 25 × 20 × 7 mm ESC has a proposed 0.5 mm insulating pad and two nylon ties through narrow fingers integrated into the center plate. No separate ESC holder STL is required.
+On `feat/top-esc-retention`, each 25 × 20 × 7 mm ESC sits lengthwise on its arm, centered 67 mm from the origin. A proposed 0.5 mm insulating pad separates it from the arm. Secure each with two narrow nylon ties through opposing 2 × 1.7 mm arm slots at radial stations 59 and 75 mm; tie width ≤1.5 mm and actual slot/strap fit need verification. Protect electronics from tie pressure. The model reserves an additional proposed 2 mm above each ESC for ties/wiring; free leads and tails are not modeled.
 
-`top_esc_checks.json` records nominal envelope clearance at 180/190/200 mm, including the Nano bounds, antenna keepout and prop sweeps. The 180 mm layout has limited prop margin; actual leads, heat-shrink, ties, blade flex and retention strength need physical checks. `scripts/revise_top_esc.py` records this revision after the camera revisions; historical build scripts alone produce the older layout. The power tray deletion does not eliminate the need for power distribution and a suitable regulator. Other frame fastener defects remain; prior overall collision/reopen reports describe earlier geometry.
+Motor pads rise **5 mm** above the former motor seating level. Four underside screw wells retain the original **4 mm nominal grip**, giving 2 mm arithmetic engagement for M2×6 screws. The motor pad is integrated into the arm; there are no separate spacers. Real screw-head fit, safe motor engagement, print orientation and raised-pad strength require testing. Motor references and the proposed propeller planes move upward by the same amount. Default prop plane is now Z=15 mm; actual installed blade height remains unmeasured.
 
-Updated printable volume is approximately **49.20 cm³**, excluding the coupon: about **61.0 g at solid PLA density 1.24 g/cm³**, versus 72.1 g before this revision. That is approximately **11.1 g less printed plastic**, including the removed power tray and filled old holes; actual slicer/printed mass and tie/pad weight differ.
+The previous center-side ESC extensions, four separate ESC trays, their eight mounting screws and arm holes, and the proposed power package/tray with its two mounting holes are removed. No separate ESC holder STL is required. Actual power distribution and voltage regulation still need a verified electrical and retention plan.
+
+`top_esc_checks.json` records ESC and top-allowance clearance at 180/190/200 mm, including Nano bounds, antenna keepout, motor bodies and expanded prop sweeps. `camera_mount_checks.json` covers the revised model at sampled camera tilt angles. Other Nano-holder/battery fastener defects remain in `screw_audit.json`. Earlier overall collision/reopen reports and side-ESC screenshots describe older geometry.
+
+`scripts/revise_arm_top_esc.py` records the final revision after `revise_top_esc.py`; historical build scripts alone produce the older layout. See `screenshots/arm_top_esc.png` and `screenshots/arm_top_esc_plan.png` for current views.
+
+## Upper IMU and compact battery revision
+
+The former underside IMU tray and its two mounting screws are removed. The GPS STL now contains a shared two-level support: IMU shelf bottom Z=8 mm, IMU board bottom Z=10.5 mm with proposed 0.5 mm isolation, GPS board bottom Z=28 mm. The IMU long edge runs along Y; verify its marked axes and firmware orientation. GPS posts move to Y=±14 mm to clear it. There is no separate IMU STL.
+
+Battery floor Z changes from −32 to −22 mm, shortening the support drop by 10 mm while retaining the specified battery size, straps and ±5 mm slide adjustment. Its nominal top gap below the center plate is 3.5 mm. `sensor_battery_checks.json` covers this adjustment at 180/190/200 mm. Existing nonconductive battery-support intrusion into the antenna zone is recorded separately; RF performance and real hardware/cables remain unverified.
+
+Current printable volume is approximately **51.11 cm³** at the default 190 mm wheelbase, excluding the coupon: **63.4 g in solid PLA** or **64.9 g in solid PETG**. Estimated assembled solid-PLA mass is **193–230 g**, including battery, with unweighed component allowances. See [WEIGHT_ESTIMATE.md](WEIGHT_ESTIMATE.md). This is about 8.7 g less printed PLA than the original tray/power layout. `screenshots/sensor_battery_side.png` shows the compact vertical arrangement.

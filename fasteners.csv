@@ -1,5 +1,5 @@
 joint,standard,quantity,status,interface_notes
-Motor mounts,M2x6,16,Unverified,Four per motor; 4 mm pad gives 2 mm nominal engagement; safe depth and head dimensions TBD; nominal printed-part gauges clear; actual hardware fit remains unverified
+Motor mounts,M2x6,16,Unverified,"Four per motor; raised integral pads +5 mm with recessed underside heads preserve 4 mm nominal grip and 2 mm M2x6 engagement; head fit, motor safe depth and printed pad strength unverified."
 Keyed arm joints,M2x6,8,CAD defect,Two per arm; existing inner screw tips and trial nuts hit Nano holder; old ESC-tray driver obstruction removed; see current screw audit.
 Nano PCB to holder,M2x6,4,Unverified,1.6 mm board and 2 mm upper boss cap; hardware material must satisfy Wi-Fi keepout; Audit: nominal stack fits; nut preloading required; detailed Nano STEP hardware collisions unverified
 Nano holder to center,M2x6,4,Gauge interference,Open ring with four tabs; nut recess and Wi-Fi-zone hardware material unresolved; Audit: four trial hex nuts hit battery supports; circular pockets do not prevent rotation
@@ -7,8 +7,7 @@ Battery cradle to center,M2x6,4,Gauge interference,Printed pilot/insert interfac
 Camera PCB to rotating frame,M2x6,4,Unverified,Offset four-hole pattern; measured PCB/spacer/nut stack required; nominal printed-part gauges clear; actual hardware fit remains unverified
 Camera pivot,M2x6,2,Nominal CAD pass,Revised 3.5 mm pivot grip plus 1.6 mm trial nut leaves 0.9 mm tip allowance; top-entry hex pockets; sampled -20 to +30 degrees; actual hardware and strength unverified
 Camera fixed base,M2x6,2,Nominal CAD pass,M2x6 base screws remain at X35; uprights moved to X39 for trial head and driver clearance; actual hardware and circular nut retention unverified
-GPS support,M2x6,2,Unverified,Proposed support pilot; old power-tray driver obstruction removed; actual retention and threads unverified.
-IMU support,M2x6,2,Unverified,Top access into proposed support pilot; axes/isolation/header fit TBD; nominal printed-part gauges clear; actual hardware fit remains unverified
+Shared GPS/IMU tower,M2x6,2,Unverified,Two M2x6 mounts at X-35.5 Y+/-14 into proposed pilots; IMU strapped to integrated upper shelf; actual thread retention and strength unverified.
 Landing skids,M2x6,4,Unverified,Two per skid outside Nano footprint; actual pilot/insert engagement TBD; nominal printed-part gauges clear; actual hardware fit remains unverified
-TOTAL,M2x6,52,Audit failed,Additional 40 beyond current 12; eight ESC-tray and two power-tray screws removed; remaining joints still need physical verification.
+TOTAL,M2x6,50,Audit failed,"Additional 38 beyond current 12; eight ESC-tray, two power-tray and two old IMU-tray screws removed; shared GPS/IMU tower uses two GPS mounting screws; other defects remain."
 Spare hardware,M2x4,12,Unused,Not allocated to this design

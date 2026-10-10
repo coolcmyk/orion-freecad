@@ -11,10 +11,10 @@
     "driver_access_length_mm": 12
   },
   "gauge_warning": "Hypothetical hardware gauges; do not infer purchased hardware dimensions",
-  "source_document": "/tmp/orion-top-esc-candidate.FCStd",
+  "source_document": "/tmp/orion-sensor-battery-candidate.FCStd",
   "variants": [
     {
-      "quantity": 52,
+      "quantity": 50,
       "joints": [
         {
           "id": "motor_0_0",
@@ -22,7 +22,7 @@
           "head_bearing_point_mm": [
             66.821591,
             66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -32,7 +32,7 @@
           "tip_mm": [
             66.821591,
             66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -51,7 +51,7 @@
           "head_bearing_point_mm": [
             60.45763,
             66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -61,7 +61,7 @@
           "tip_mm": [
             60.45763,
             66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -80,7 +80,7 @@
           "head_bearing_point_mm": [
             60.45763,
             60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -90,7 +90,7 @@
           "tip_mm": [
             60.45763,
             60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -109,7 +109,7 @@
           "head_bearing_point_mm": [
             66.821591,
             60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -119,7 +119,7 @@
           "tip_mm": [
             66.821591,
             60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -210,7 +210,7 @@
           "head_bearing_point_mm": [
             -66.821591,
             66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -220,7 +220,7 @@
           "tip_mm": [
             -66.821591,
             66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -239,7 +239,7 @@
           "head_bearing_point_mm": [
             -66.821591,
             60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -249,7 +249,7 @@
           "tip_mm": [
             -66.821591,
             60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -268,7 +268,7 @@
           "head_bearing_point_mm": [
             -60.45763,
             60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -278,7 +278,7 @@
           "tip_mm": [
             -60.45763,
             60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -297,7 +297,7 @@
           "head_bearing_point_mm": [
             -60.45763,
             66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -307,7 +307,7 @@
           "tip_mm": [
             -60.45763,
             66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -398,7 +398,7 @@
           "head_bearing_point_mm": [
             -66.821591,
             -66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -408,7 +408,7 @@
           "tip_mm": [
             -66.821591,
             -66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -427,7 +427,7 @@
           "head_bearing_point_mm": [
             -60.45763,
             -66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -437,7 +437,7 @@
           "tip_mm": [
             -60.45763,
             -66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -456,7 +456,7 @@
           "head_bearing_point_mm": [
             -60.45763,
             -60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -466,7 +466,7 @@
           "tip_mm": [
             -60.45763,
             -60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -485,7 +485,7 @@
           "head_bearing_point_mm": [
             -66.821591,
             -60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -495,7 +495,7 @@
           "tip_mm": [
             -66.821591,
             -60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -586,7 +586,7 @@
           "head_bearing_point_mm": [
             66.821591,
             -66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -596,7 +596,7 @@
           "tip_mm": [
             66.821591,
             -66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -615,7 +615,7 @@
           "head_bearing_point_mm": [
             66.821591,
             -60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -625,7 +625,7 @@
           "tip_mm": [
             66.821591,
             -60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -644,7 +644,7 @@
           "head_bearing_point_mm": [
             60.45763,
             -60.45763,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -654,7 +654,7 @@
           "tip_mm": [
             60.45763,
             -60.45763,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -673,7 +673,7 @@
           "head_bearing_point_mm": [
             60.45763,
             -66.821591,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -683,7 +683,7 @@
           "tip_mm": [
             60.45763,
             -66.821591,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -914,7 +914,12 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [],
+            "driver": [
+              {
+                "part": "GPSMountSolid",
+                "overlap_mm3": 9.57325
+              }
+            ],
             "nut_hex_gauge": [
               {
                 "part": "BatteryCradleSolid",
@@ -950,7 +955,12 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [],
+            "driver": [
+              {
+                "part": "GPSMountSolid",
+                "overlap_mm3": 9.57325
+              }
+            ],
             "nut_hex_gauge": [
               {
                 "part": "BatteryCradleSolid",
@@ -1177,7 +1187,7 @@
           "category": "GPS support",
           "head_bearing_point_mm": [
             -35.5,
-            -6.0,
+            -14.0,
             -3.0
           ],
           "axis": [
@@ -1187,7 +1197,7 @@
           ],
           "tip_mm": [
             -35.5,
-            -6.0,
+            -14.0,
             3.0
           ],
           "owners": [
@@ -1207,7 +1217,7 @@
           "category": "GPS support",
           "head_bearing_point_mm": [
             -35.5,
-            6.0,
+            14.0,
             -3.0
           ],
           "axis": [
@@ -1217,71 +1227,11 @@
           ],
           "tip_mm": [
             -35.5,
-            6.0,
+            14.0,
             3.0
           ],
           "owners": [
             "GPSMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "IMUBaseBolt_0",
-          "category": "IMU support",
-          "head_bearing_point_mm": [
-            -14.0,
-            0.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -14.0,
-            0.0,
-            -6.0
-          ],
-          "owners": [
-            "IMUMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "IMUBaseBolt_1",
-          "category": "IMU support",
-          "head_bearing_point_mm": [
-            14.0,
-            0.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            14.0,
-            0.0,
-            -6.0
-          ],
-          "owners": [
-            "IMUMountSolid",
             "CenterBaseSolid"
           ],
           "pilot_thread_unverified": true,
@@ -1668,7 +1618,7 @@
       "wheelbase_mm": 180
     },
     {
-      "quantity": 52,
+      "quantity": 50,
       "joints": [
         {
           "id": "motor_0_0",
@@ -1676,7 +1626,7 @@
           "head_bearing_point_mm": [
             70.357125,
             70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1686,7 +1636,7 @@
           "tip_mm": [
             70.357125,
             70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -1705,7 +1655,7 @@
           "head_bearing_point_mm": [
             63.993164,
             70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1715,7 +1665,7 @@
           "tip_mm": [
             63.993164,
             70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -1734,7 +1684,7 @@
           "head_bearing_point_mm": [
             63.993164,
             63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1744,7 +1694,7 @@
           "tip_mm": [
             63.993164,
             63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -1763,7 +1713,7 @@
           "head_bearing_point_mm": [
             70.357125,
             63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1773,7 +1723,7 @@
           "tip_mm": [
             70.357125,
             63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -1864,7 +1814,7 @@
           "head_bearing_point_mm": [
             -70.357125,
             70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1874,7 +1824,7 @@
           "tip_mm": [
             -70.357125,
             70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -1893,7 +1843,7 @@
           "head_bearing_point_mm": [
             -70.357125,
             63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1903,7 +1853,7 @@
           "tip_mm": [
             -70.357125,
             63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -1922,7 +1872,7 @@
           "head_bearing_point_mm": [
             -63.993164,
             63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1932,7 +1882,7 @@
           "tip_mm": [
             -63.993164,
             63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -1951,7 +1901,7 @@
           "head_bearing_point_mm": [
             -63.993164,
             70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -1961,7 +1911,7 @@
           "tip_mm": [
             -63.993164,
             70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -2052,7 +2002,7 @@
           "head_bearing_point_mm": [
             -70.357125,
             -70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2062,7 +2012,7 @@
           "tip_mm": [
             -70.357125,
             -70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -2081,7 +2031,7 @@
           "head_bearing_point_mm": [
             -63.993164,
             -70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2091,7 +2041,7 @@
           "tip_mm": [
             -63.993164,
             -70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -2110,7 +2060,7 @@
           "head_bearing_point_mm": [
             -63.993164,
             -63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2120,7 +2070,7 @@
           "tip_mm": [
             -63.993164,
             -63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -2139,7 +2089,7 @@
           "head_bearing_point_mm": [
             -70.357125,
             -63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2149,7 +2099,7 @@
           "tip_mm": [
             -70.357125,
             -63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -2240,7 +2190,7 @@
           "head_bearing_point_mm": [
             70.357125,
             -70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2250,7 +2200,7 @@
           "tip_mm": [
             70.357125,
             -70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -2269,7 +2219,7 @@
           "head_bearing_point_mm": [
             70.357125,
             -63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2279,7 +2229,7 @@
           "tip_mm": [
             70.357125,
             -63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -2298,7 +2248,7 @@
           "head_bearing_point_mm": [
             63.993164,
             -63.993164,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2308,7 +2258,7 @@
           "tip_mm": [
             63.993164,
             -63.993164,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -2327,7 +2277,7 @@
           "head_bearing_point_mm": [
             63.993164,
             -70.357125,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -2337,7 +2287,7 @@
           "tip_mm": [
             63.993164,
             -70.357125,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -2568,7 +2518,12 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [],
+            "driver": [
+              {
+                "part": "GPSMountSolid",
+                "overlap_mm3": 9.57325
+              }
+            ],
             "nut_hex_gauge": [
               {
                 "part": "BatteryCradleSolid",
@@ -2604,7 +2559,12 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [],
+            "driver": [
+              {
+                "part": "GPSMountSolid",
+                "overlap_mm3": 9.57325
+              }
+            ],
             "nut_hex_gauge": [
               {
                 "part": "BatteryCradleSolid",
@@ -2831,7 +2791,7 @@
           "category": "GPS support",
           "head_bearing_point_mm": [
             -35.5,
-            -6.0,
+            -14.0,
             -3.0
           ],
           "axis": [
@@ -2841,7 +2801,7 @@
           ],
           "tip_mm": [
             -35.5,
-            -6.0,
+            -14.0,
             3.0
           ],
           "owners": [
@@ -2861,7 +2821,7 @@
           "category": "GPS support",
           "head_bearing_point_mm": [
             -35.5,
-            6.0,
+            14.0,
             -3.0
           ],
           "axis": [
@@ -2871,71 +2831,11 @@
           ],
           "tip_mm": [
             -35.5,
-            6.0,
+            14.0,
             3.0
           ],
           "owners": [
             "GPSMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "IMUBaseBolt_0",
-          "category": "IMU support",
-          "head_bearing_point_mm": [
-            -14.0,
-            0.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -14.0,
-            0.0,
-            -6.0
-          ],
-          "owners": [
-            "IMUMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "IMUBaseBolt_1",
-          "category": "IMU support",
-          "head_bearing_point_mm": [
-            14.0,
-            0.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            14.0,
-            0.0,
-            -6.0
-          ],
-          "owners": [
-            "IMUMountSolid",
             "CenterBaseSolid"
           ],
           "pilot_thread_unverified": true,
@@ -3322,7 +3222,7 @@
       "wheelbase_mm": 190
     },
     {
-      "quantity": 52,
+      "quantity": 50,
       "joints": [
         {
           "id": "motor_0_0",
@@ -3330,7 +3230,7 @@
           "head_bearing_point_mm": [
             73.892659,
             73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3340,7 +3240,7 @@
           "tip_mm": [
             73.892659,
             73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -3359,7 +3259,7 @@
           "head_bearing_point_mm": [
             67.528698,
             73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3369,7 +3269,7 @@
           "tip_mm": [
             67.528698,
             73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -3388,7 +3288,7 @@
           "head_bearing_point_mm": [
             67.528698,
             67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3398,7 +3298,7 @@
           "tip_mm": [
             67.528698,
             67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -3417,7 +3317,7 @@
           "head_bearing_point_mm": [
             73.892659,
             67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3427,7 +3327,7 @@
           "tip_mm": [
             73.892659,
             67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FL"
@@ -3518,7 +3418,7 @@
           "head_bearing_point_mm": [
             -73.892659,
             73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3528,7 +3428,7 @@
           "tip_mm": [
             -73.892659,
             73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -3547,7 +3447,7 @@
           "head_bearing_point_mm": [
             -73.892659,
             67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3557,7 +3457,7 @@
           "tip_mm": [
             -73.892659,
             67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -3576,7 +3476,7 @@
           "head_bearing_point_mm": [
             -67.528698,
             67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3586,7 +3486,7 @@
           "tip_mm": [
             -67.528698,
             67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -3605,7 +3505,7 @@
           "head_bearing_point_mm": [
             -67.528698,
             73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3615,7 +3515,7 @@
           "tip_mm": [
             -67.528698,
             73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RL"
@@ -3706,7 +3606,7 @@
           "head_bearing_point_mm": [
             -73.892659,
             -73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3716,7 +3616,7 @@
           "tip_mm": [
             -73.892659,
             -73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -3735,7 +3635,7 @@
           "head_bearing_point_mm": [
             -67.528698,
             -73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3745,7 +3645,7 @@
           "tip_mm": [
             -67.528698,
             -73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -3764,7 +3664,7 @@
           "head_bearing_point_mm": [
             -67.528698,
             -67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3774,7 +3674,7 @@
           "tip_mm": [
             -67.528698,
             -67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -3793,7 +3693,7 @@
           "head_bearing_point_mm": [
             -73.892659,
             -67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3803,7 +3703,7 @@
           "tip_mm": [
             -73.892659,
             -67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_RR"
@@ -3894,7 +3794,7 @@
           "head_bearing_point_mm": [
             73.892659,
             -73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3904,7 +3804,7 @@
           "tip_mm": [
             73.892659,
             -73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -3923,7 +3823,7 @@
           "head_bearing_point_mm": [
             73.892659,
             -67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3933,7 +3833,7 @@
           "tip_mm": [
             73.892659,
             -67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -3952,7 +3852,7 @@
           "head_bearing_point_mm": [
             67.528698,
             -67.528698,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3962,7 +3862,7 @@
           "tip_mm": [
             67.528698,
             -67.528698,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -3981,7 +3881,7 @@
           "head_bearing_point_mm": [
             67.528698,
             -73.892659,
-            -7.0
+            -2.0
           ],
           "axis": [
             0.0,
@@ -3991,7 +3891,7 @@
           "tip_mm": [
             67.528698,
             -73.892659,
-            -1.0
+            4.0
           ],
           "owners": [
             "Arm_FR"
@@ -4222,7 +4122,12 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [],
+            "driver": [
+              {
+                "part": "GPSMountSolid",
+                "overlap_mm3": 9.57325
+              }
+            ],
             "nut_hex_gauge": [
               {
                 "part": "BatteryCradleSolid",
@@ -4258,7 +4163,12 @@
           "gauge_collisions": {
             "shaft": [],
             "head": [],
-            "driver": [],
+            "driver": [
+              {
+                "part": "GPSMountSolid",
+                "overlap_mm3": 9.57325
+              }
+            ],
             "nut_hex_gauge": [
               {
                 "part": "BatteryCradleSolid",
@@ -4485,7 +4395,7 @@
           "category": "GPS support",
           "head_bearing_point_mm": [
             -35.5,
-            -6.0,
+            -14.0,
             -3.0
           ],
           "axis": [
@@ -4495,7 +4405,7 @@
           ],
           "tip_mm": [
             -35.5,
-            -6.0,
+            -14.0,
             3.0
           ],
           "owners": [
@@ -4515,7 +4425,7 @@
           "category": "GPS support",
           "head_bearing_point_mm": [
             -35.5,
-            6.0,
+            14.0,
             -3.0
           ],
           "axis": [
@@ -4525,71 +4435,11 @@
           ],
           "tip_mm": [
             -35.5,
-            6.0,
+            14.0,
             3.0
           ],
           "owners": [
             "GPSMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "IMUBaseBolt_0",
-          "category": "IMU support",
-          "head_bearing_point_mm": [
-            -14.0,
-            0.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            -14.0,
-            0.0,
-            -6.0
-          ],
-          "owners": [
-            "IMUMountSolid",
-            "CenterBaseSolid"
-          ],
-          "pilot_thread_unverified": true,
-          "gauge_collisions": {
-            "shaft": [],
-            "head": [],
-            "driver": []
-          },
-          "note": "3 mm nominal penetration into 1.7 mm pilot; thread/insert design unverified"
-        },
-        {
-          "id": "IMUBaseBolt_1",
-          "category": "IMU support",
-          "head_bearing_point_mm": [
-            14.0,
-            0.0,
-            0.0
-          ],
-          "axis": [
-            -0.0,
-            -0.0,
-            -1.0
-          ],
-          "tip_mm": [
-            14.0,
-            0.0,
-            -6.0
-          ],
-          "owners": [
-            "IMUMountSolid",
             "CenterBaseSolid"
           ],
           "pilot_thread_unverified": true,

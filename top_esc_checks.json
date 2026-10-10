@@ -10,23 +10,43 @@
       "clearance": [
         {
           "esc": "ESCEnvelope0",
-          "prop_keepout_distance_mm": 2.233,
-          "antenna_keepout_distance_mm": 36.809
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 37.606
         },
         {
           "esc": "ESCEnvelope1",
-          "prop_keepout_distance_mm": 2.233,
-          "antenna_keepout_distance_mm": 36.809
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 51.62
         },
         {
           "esc": "ESCEnvelope2",
-          "prop_keepout_distance_mm": 0.731,
-          "antenna_keepout_distance_mm": 1.529
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 23.886
         },
         {
           "esc": "ESCEnvelope3",
-          "prop_keepout_distance_mm": 0.731,
-          "antenna_keepout_distance_mm": 1.529
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 2.536
+        },
+        {
+          "esc": "ESCTieAllowance0",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 37.606
+        },
+        {
+          "esc": "ESCTieAllowance1",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 51.62
+        },
+        {
+          "esc": "ESCTieAllowance2",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 23.886
+        },
+        {
+          "esc": "ESCTieAllowance3",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 2.536
         }
       ]
     },
@@ -39,23 +59,43 @@
       "clearance": [
         {
           "esc": "ESCEnvelope0",
-          "prop_keepout_distance_mm": 6.683,
-          "antenna_keepout_distance_mm": 36.809
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 37.606
         },
         {
           "esc": "ESCEnvelope1",
-          "prop_keepout_distance_mm": 6.683,
-          "antenna_keepout_distance_mm": 36.809
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 51.62
         },
         {
           "esc": "ESCEnvelope2",
-          "prop_keepout_distance_mm": 4.63,
-          "antenna_keepout_distance_mm": 1.529
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 23.886
         },
         {
           "esc": "ESCEnvelope3",
-          "prop_keepout_distance_mm": 4.63,
-          "antenna_keepout_distance_mm": 1.529
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 2.536
+        },
+        {
+          "esc": "ESCTieAllowance0",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 37.606
+        },
+        {
+          "esc": "ESCTieAllowance1",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 51.62
+        },
+        {
+          "esc": "ESCTieAllowance2",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 23.886
+        },
+        {
+          "esc": "ESCTieAllowance3",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 2.536
         }
       ]
     },
@@ -68,31 +108,51 @@
       "clearance": [
         {
           "esc": "ESCEnvelope0",
-          "prop_keepout_distance_mm": 11.24,
-          "antenna_keepout_distance_mm": 36.809
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 37.606
         },
         {
           "esc": "ESCEnvelope1",
-          "prop_keepout_distance_mm": 11.24,
-          "antenna_keepout_distance_mm": 36.809
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 51.62
         },
         {
           "esc": "ESCEnvelope2",
-          "prop_keepout_distance_mm": 8.742,
-          "antenna_keepout_distance_mm": 1.529
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 23.886
         },
         {
           "esc": "ESCEnvelope3",
-          "prop_keepout_distance_mm": 8.742,
-          "antenna_keepout_distance_mm": 1.529
+          "prop_keepout_distance_mm": 3.5,
+          "antenna_keepout_distance_mm": 2.536
+        },
+        {
+          "esc": "ESCTieAllowance0",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 37.606
+        },
+        {
+          "esc": "ESCTieAllowance1",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 51.62
+        },
+        {
+          "esc": "ESCTieAllowance2",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 23.886
+        },
+        {
+          "esc": "ESCTieAllowance3",
+          "prop_keepout_distance_mm": 1.5,
+          "antenna_keepout_distance_mm": 2.536
         }
       ]
     }
   ],
-  "limits": "25 x 20 x 7 mm supplied ESC envelopes; 0.5 mm proposed insulating pad; lead exits, ties, solder, heat-shrink, installed blade flex, real antenna behavior and strength unverified. The negative-Y pair has limited clearance at 180 mm. Existing other fastener defects remain.",
+  "limits": "25 x 20 x 7 mm supplied ESC envelopes on arm tops; 0.5 mm proposed insulating pad and 2 mm top tie/wire allowance; raised motors +5 mm with nominal 4 mm screw grip. Actual lead exits, ties, solder, heat-shrink, installed blade flex, real antenna behavior, recessed head fit and raised-pad strength unverified. Existing other fastener defects remain.",
   "saved_document_reopen": {
     "status": "PASS",
-    "objects": 444,
+    "objects": 428,
     "recompute_errors": [],
     "source_document": "/home/kyo/ws/orion/ORION_frame.FCStd"
   }

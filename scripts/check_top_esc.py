@@ -9,8 +9,9 @@ sheet=doc.Parameters
 wc=sheet.getCellFromAlias('wheelbase_mm');original=sheet.getContents(wc)
 poses=[]
 printed=['CenterBaseSolid','P4HolderSolid','BatteryCradleSolid','GPSMountSolid','IMUMountSolid','CameraFrameSolid','CameraBaseSolid']+[o.Name for o in doc.Objects if o.TypeId=='App::Link']
+printed=[n for n in printed if doc.getObject(n)]
 # The detailed Nano bound is a conservative check here; every proposed ESC clears it.
-reference=['NanoAssemblyBounds','WiFiAntennaKeepout','BatteryEnvelope','GPSEnvelope','IMUEnvelope','CameraGPCB','CameraGSensorHousing','CameraGFisheyeBarrel','CameraGRearFFC','CameraGFFCLatch']+['ExpandedPropSweep'+str(i) for i in range(4)]
+reference=['NanoAssemblyBounds','WiFiAntennaKeepout','BatteryEnvelope','GPSEnvelope','IMUEnvelope','CameraGPCB','CameraGSensorHousing','CameraGFisheyeBarrel','CameraGRearFFC','CameraGFFCLatch']+[f'MotorBody{i}' for i in range(4)]+['ExpandedPropSweep'+str(i) for i in range(4)]
 try:
  for wb in [180,190,200]:
   sheet.set(wc,str(wb)+' mm');doc.recompute()
@@ -18,6 +19,7 @@ try:
   obstacles={n:world(doc.getObject(n)) for n in printed+reference if doc.getObject(n)}
   hits=[];distances=[]
   escs={f'ESCEnvelope{i}':world(doc.getObject(f'ESCEnvelope{i}')) for i in range(4)}
+  escs.update({f'ESCTieAllowance{i}':world(doc.getObject(f'ESCTieAllowance{i}')) for i in range(4) if doc.getObject(f'ESCTieAllowance{i}')})
   for n,s in escs.items():
    for m,t in obstacles.items():
     v=overlap(s,t)
@@ -36,6 +38,6 @@ try:
 finally:
  sheet.set(wc,original);doc.recompute()
 passed=all(not p['errors'] and p['valid_print_solids'] and not p['esc_intersections'] and not p['center_intersections'] for p in poses)
-result={'status':'PASS nominal top ESC layout' if passed else 'FAIL','poses':poses,'limits':'25 x 20 x 7 mm supplied ESC envelopes; 0.5 mm proposed insulating pad; lead exits, ties, solder, heat-shrink, installed blade flex, real antenna behavior and strength unverified. The negative-Y pair has limited clearance at 180 mm. Existing other fastener defects remain.'}
+result={'status':'PASS nominal top ESC layout' if passed else 'FAIL','poses':poses,'limits':'25 x 20 x 7 mm supplied ESC envelopes on arm tops; 0.5 mm proposed insulating pad and 2 mm top tie/wire allowance; raised motors +5 mm with nominal 4 mm screw grip. Actual lead exits, ties, solder, heat-shrink, installed blade flex, real antenna behavior, recessed head fit and raised-pad strength unverified. Existing other fastener defects remain.'}
 (ROOT/'top_esc_checks.json').write_text(json.dumps(result,indent=2)+'\n')
 assert passed,'See top_esc_checks.json'

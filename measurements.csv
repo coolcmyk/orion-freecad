@@ -97,7 +97,7 @@ layout_prop_sweep_mm,4 mm,mm,Proposed,2026-10-10,Unmeasured blade sweep thicknes
 p4_pcb_underside_z_mm,8 mm,mm,Proposed,2026-10-10,Stand-offs clear underside STEP components,Fit verification pending
 p4_pcb_top_z_mm,=p4_pcb_underside_z_mm + p4_pcb_thickness_mm,mm,Derived,2026-10-10,PCB datum for imported STEP,Fit verification pending
 p4_rotation_deg,0 deg,deg,Proposed,2026-10-10,STEP orientation; actual board/cable orientation must be verified,Fit verification pending
-battery_cradle_z_mm,-32 mm,mm,Proposed,2026-10-10,Tray bottom; battery underside -30 mm,Fit verification pending
+battery_cradle_z_mm,-22 mm,mm,Proposed,2026-10-11,Compact battery revision; floor raised 10 mm; nominal 3.5 mm top gap,Fit verification pending
 battery_offset_x_mm,0 mm,mm,Proposed,2026-10-10,Adjustment range ±5 mm; validate connectors throughout range,Fit verification pending
 layout_strap_width_mm,6 mm,mm,Proposed,2026-10-10,Slot prototype only; actual strap_width_mm remains TBD,Fit verification pending
 layout_strap_thickness_mm,1 mm,mm,Proposed,2026-10-10,Slot prototype only; actual strap_thickness_mm remains TBD,Fit verification pending
@@ -130,3 +130,11 @@ printed_frame_mass_g,TBD,g,TBD,2026-10-10,Actual scale measurement required,Unre
 nano_mass_g,TBD,g,TBD,2026-10-10,Actual populated board mass required,Unresolved
 assembled_cg_x_mm,TBD,mm,TBD,2026-10-10,Measured balance required,Unresolved
 assembled_cg_y_mm,TBD,mm,TBD,2026-10-10,Measured balance required,Unresolved
+esc_arm_radius_mm,67 mm,mm,Proposed,2026-10-11,Arm-top candidate; one ESC per arm,Fit verification pending
+motor_lift_mm,5 mm,mm,Proposed,2026-10-11,Integral raised pads; underside head wells preserve nominal 4 mm grip,Fit verification pending
+esc_tie_allowance_mm,2 mm,mm,Proposed,2026-10-11,Top tie/wire allowance beyond specified ESC; actual leads unverified,Fit verification pending
+effective_layout_prop_plane_z_mm,15 mm,mm,Derived,2026-10-11,Nominal base plane 10 mm plus 5 mm motor lift; installed prop height TBD,Fit verification pending
+imu_tray_z_mm,8 mm,mm,Proposed,2026-10-11,Shared GPS/IMU tower lower shelf,Fit verification pending
+imu_isolation_pad_mm,0.5 mm,mm,Proposed,2026-10-11,Verify actual isolation/header fit,Fit verification pending
+sensor_post_y_mm,14 mm,mm,Proposed,2026-10-11,GPS/IMU tower support station,Fit verification pending
+nominal_battery_top_gap_mm,3.5 mm,mm,Derived,2026-10-11,Nominal pack top -6.5 mm to center underside -3 mm; cables/straps not measured,Fit verification pending

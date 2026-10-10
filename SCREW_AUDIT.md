@@ -1,3 +1,7 @@
+> Shared-sensor revision: old underside IMU mount removed; GPS posts/mounts moved to Y±14 mm. Current provisional count is 50 screws. Battery floor raised 10 mm. The current JSON report supersedes the historical count/layout below.
+
+> Arm-top revision: integral motor pads are raised 5 mm, with recessed underside head wells preserving 4 mm nominal grip and 2 mm M2×6 engagement. Current gauge checks clear these revised motor joints; real head size, safe motor depth and printed-pad strength remain unverified.
+
 > Branch revision 2026-10-11: the eight ESC-tray screws and two power-tray screws are removed (52 remaining). Those old obstructions are historical; `screw_audit.json` is the current geometry report. The detailed table below records the earlier 62-joint audit. The refreshed audit has no shaft-pair collisions or driver obstructions at any tested wheelbase; remaining recorded collisions are four inner arm tip/nut contacts with the Nano holder, four Nano-holder nut contacts with battery supports, and four battery screw-head contacts with the Nano holder. Actual hardware/thread/antenna suitability remains unverified.
 
 # Screw assembly audit — 2026-10-10

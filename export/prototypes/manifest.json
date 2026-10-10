@@ -11,12 +11,12 @@
       "print_quantity": 4,
       "valid_single_cad_solid": true,
       "closed_mesh": true,
-      "facets": 2256,
-      "cad_volume_mm3": 3924.5562,
+      "facets": 3188,
+      "cad_volume_mm3": 5073.2291,
       "bounds_mm": [
         80.0,
         20.0,
-        5.5
+        9.0
       ],
       "translation_mm": [
         -25.0,
@@ -30,16 +30,16 @@
       "print_quantity": 1,
       "valid_single_cad_solid": true,
       "closed_mesh": true,
-      "facets": 7172,
-      "cad_volume_mm3": 16194.9927,
+      "facets": 6468,
+      "cad_volume_mm3": 14434.136,
       "bounds_mm": [
         75.0,
-        103.0,
+        70.0,
         3.0
       ],
       "translation_mm": [
         37.5,
-        56.0,
+        35.0,
         3.0
       ]
     },
@@ -69,16 +69,16 @@
       "valid_single_cad_solid": true,
       "closed_mesh": true,
       "facets": 1020,
-      "cad_volume_mm3": 6749.6832,
+      "cad_volume_mm3": 6109.6832,
       "bounds_mm": [
         78.0,
         30.0,
-        29.0
+        19.0
       ],
       "translation_mm": [
         39.0,
         15.0,
-        32.0
+        22.0
       ]
     },
     {
@@ -87,36 +87,17 @@
       "print_quantity": 1,
       "valid_single_cad_solid": true,
       "closed_mesh": true,
-      "facets": 508,
-      "cad_volume_mm3": 1674.7616,
+      "facets": 664,
+      "cad_volume_mm3": 2798.3616,
       "bounds_mm": [
         20.2,
-        16.3,
+        32.0,
         31.0
       ],
       "translation_mm": [
         49.1,
-        8.15,
+        16.0,
         -0.0
-      ]
-    },
-    {
-      "file": "export/prototypes/ORION_imu_mount.stl",
-      "source_object": "IMUMountSolid",
-      "print_quantity": 1,
-      "valid_single_cad_solid": true,
-      "closed_mesh": true,
-      "facets": 524,
-      "cad_volume_mm3": 1406.9416,
-      "bounds_mm": [
-        31.0,
-        18.3,
-        10.0
-      ],
-      "translation_mm": [
-        15.5,
-        9.15,
-        13.0
       ]
     },
     {
@@ -197,5 +178,6 @@
     }
   ],
   "camera_revision": "Forward lean -15 deg; nominal -20 to +30 deg sampled; see camera_mount_checks.json. Other fastener defects remain.",
-  "esc_revision": "Top ESCs: two per side, center-integrated tie fingers; no separate trays or power placeholder. See top_esc_checks.json."
+  "esc_revision": "One ESC lengthwise on each arm, center radius 67 mm, 0.5 mm insulation and two ties through arm slots; motor pads raised 5 mm with recessed 4 mm screw grip. No side extensions, separate trays or power placeholder. See top_esc_checks.json.",
+  "sensor_battery_revision": "IMU on shared GPS tower: shelf Z8 mm, board Z10.5 mm and rotated 90 deg in plane; no underside IMU tray or its two bolts. Battery floor Z-22 mm, raised 10 mm; nominal top gap 3.5 mm. See sensor_battery_checks.json."
 }

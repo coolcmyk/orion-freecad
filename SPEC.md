@@ -430,3 +430,11 @@ FreeCAD implementation references:
 ### Branch design revision — 2026-10-11
 
 User-authorized on `feat/top-esc-retention`: replace FR-11’s separate arm-mounted ESC holders with four insulated ESCs secured by two nylon ties each to top-side fingers integrated into the center plate. Keep ESCs individually removable by cutting/replacing ties. Remove the provisional regulator/PDB envelope, its printed power tray and two mounting joints; retain the requirement for verified electrical power distribution, regulation, insulation and cable retention once actual hardware is selected. This supersedes the separate-ESC-holder and candidate-power-tray geometry for this branch only. Remaining mechanical and electrical verification requirements still apply.
+
+### Arm-top ESC clarification — 2026-10-11
+
+User reference photo supersedes the center-side ESC layout on this branch. Fit one ESC lengthwise on each arm with insulation and two cable ties; no side extensions or separate ESC trays. Proposed ESC radius is 67 mm. Raise the integrated motor seats 5 mm and shift the reference prop planes equally, with underside head wells retaining 4 mm nominal M2×6 grip. Nominal 2 mm motor engagement remains subject to actual safe depth. Include a proposed 2 mm tie/wire top allowance. Final strength, lead routing and installed prop sweep must be verified physically.
+
+### Shared upper sensor tower and compact battery — 2026-10-11
+
+User-authorized revision: relocate the IMU from the underside to a lower shelf beneath the GPS at ESP-board level. Integrate the IMU shelf into the GPS support, removing the old IMU print and two mount screws. Rotate its modeled long edge along Y; verify actual sensor axes and firmware mapping. Proposed shelf Z8 mm, IMU board Z10.5 mm including 0.5 mm pad; GPS posts Y±14 mm. This supersedes the near-origin underside IMU arrangement on this branch. Raise battery floor from Z−32 to Z−22 mm and retain specified pack dimensions and ±5 mm sliding adjustment. Nominal battery-to-center gap is 3.5 mm; straps/leads and physical fit remain unverified.

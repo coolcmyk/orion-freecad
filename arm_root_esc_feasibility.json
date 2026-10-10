@@ -1,0 +1,298 @@
+{
+  "status": "Feasibility study; main CAD unchanged",
+  "esc_dimensions_mm": [
+    25,
+    20,
+    7
+  ],
+  "search": "Centered on each arm axis; radii 38..64 mm in 2 mm steps; long side radial or transverse; bottom Z0.5 or 2.5 mm. Proposed insulation/support height; no retention or cable geometry. Conservative Nano bound and expanded prop keepouts.",
+  "results": [
+    {
+      "wheelbase_mm": 180,
+      "arm_angle_deg": 45,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds",
+          "ExpandedPropSweep0"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 180,
+      "arm_angle_deg": 135,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds",
+          "ExpandedPropSweep1"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 180,
+      "arm_angle_deg": 225,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds",
+          "ExpandedPropSweep2"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 180,
+      "arm_angle_deg": 315,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds",
+          "WiFiAntennaKeepout",
+          "ExpandedPropSweep3"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 190,
+      "arm_angle_deg": 45,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 190,
+      "arm_angle_deg": 135,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 190,
+      "arm_angle_deg": 225,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 190,
+      "arm_angle_deg": 315,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds",
+          "WiFiAntennaKeepout"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 200,
+      "arm_angle_deg": 45,
+      "clear_candidates": [
+        {
+          "orientation": "along arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 48,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 52,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        }
+      ],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 200,
+      "arm_angle_deg": 135,
+      "clear_candidates": [
+        {
+          "orientation": "along arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "along arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 48,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 52,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 48,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 52,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        }
+      ],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 200,
+      "arm_angle_deg": 225,
+      "clear_candidates": [
+        {
+          "orientation": "along arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "along arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 48,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 52,
+          "bottom_z_mm": 0.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 48,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 50,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        },
+        {
+          "orientation": "across arm",
+          "radius_mm": 52,
+          "bottom_z_mm": 2.5,
+          "hits": []
+        }
+      ],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds"
+        ]
+      }
+    },
+    {
+      "wheelbase_mm": 200,
+      "arm_angle_deg": 315,
+      "clear_candidates": [],
+      "example_46mm_across": {
+        "orientation": "across arm",
+        "radius_mm": 46,
+        "bottom_z_mm": 2.5,
+        "hits": [
+          "NanoAssemblyBounds",
+          "WiFiAntennaKeepout"
+        ]
+      }
+    }
+  ],
+  "revision_note": "Historical study before the +5 mm motor lift and before the final arm-top/sensor/battery revisions. Does not describe current fit."
+}

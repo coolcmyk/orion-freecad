@@ -1,0 +1,147 @@
+{
+  "status": "PASS nominal shared tower and compact battery",
+  "poses": [
+    {
+      "wheelbase_mm": 180,
+      "battery_shift_mm": -5,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 180,
+      "battery_shift_mm": 0,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 180,
+      "battery_shift_mm": 5,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 190,
+      "battery_shift_mm": -5,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 190,
+      "battery_shift_mm": 0,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 190,
+      "battery_shift_mm": 5,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 200,
+      "battery_shift_mm": -5,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 200,
+      "battery_shift_mm": 0,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    },
+    {
+      "wheelbase_mm": 200,
+      "battery_shift_mm": 5,
+      "errors": [],
+      "valid_print_solids": true,
+      "hits": [],
+      "nominal_battery_top_gap_mm": 3.5,
+      "existing_nonconductive_support_in_antenna_zone": [
+        {
+          "part": "BatteryCradleSolid",
+          "other": "WiFiAntennaKeepout",
+          "volume_mm3": 20.842237
+        }
+      ]
+    }
+  ],
+  "limits": "IMU populated height 5 mm and pad 0.5 mm are proposed. Header/cable/strap geometry, pilot retention, GPS/IMU performance and structural suitability need physical checks; Existing nonconductive battery support intrusion into the antenna zone is recorded separately; RF performance remains unverified. Other frame fastener defects remain.",
+  "saved_document_reopen": {
+    "status": "PASS",
+    "objects": 428,
+    "recompute_errors": [],
+    "source_document": "/home/kyo/ws/orion/ORION_frame.FCStd"
+  }
+}

@@ -79,7 +79,7 @@ def audit_variant(categories=None):
         placement=doc.getObject(an).LinkPlacement
         for j in range(4):
             p=doc.getObject('MotorBolt'+str(j)).Placement.Base
-            add(f'motor_{ai}_{j}','Motor mounts',placement.multVec(App.Vector(p.x,p.y,-7)),z,[an],
+            add(f'motor_{ai}_{j}','Motor mounts',placement.multVec(App.Vector(p.x,p.y,float(doc.MotorPad.Placement.Base.z)+float(doc.MotorPad.Height)-4)),z,[an],
                 note='2 mm nominal motor engagement; real threads, head size and safe depth unknown')
         for j,r in enumerate([30,38]):
             p=placement.multVec(App.Vector(r,0,-5))
