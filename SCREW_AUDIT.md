@@ -1,3 +1,5 @@
+> Current tower also obstructs two rear Nano-holder driver paths (about 9.57 mm³ per trial driver at 190 mm). Install the Nano holder before the shared sensor tower; independent access is unresolved. The earlier statement below that driver paths were clear predates this tower revision.
+
 > Shared-sensor revision: old underside IMU mount removed; GPS posts/mounts moved to Y±14 mm. Current provisional count is 50 screws. Battery floor raised 10 mm. The current JSON report supersedes the historical count/layout below.
 
 > Arm-top revision: integral motor pads are raised 5 mm, with recessed underside head wells preserving 4 mm nominal grip and 2 mm M2×6 engagement. Current gauge checks clear these revised motor joints; real head size, safe motor depth and printed-pad strength remain unverified.
