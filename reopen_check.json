@@ -1,0 +1,11 @@
+{
+  "test": "independent saved-file reopen and recompute",
+  "freecad_version": "1.1.3",
+  "object_count": 439,
+  "errors": [],
+  "valid_single_solid_sources": 12,
+  "wheelbase_mm": 190.0,
+  "center_sketch_fully_constrained": true,
+  "arm_sketch_fully_constrained": true,
+  "result": "PASS"
+}

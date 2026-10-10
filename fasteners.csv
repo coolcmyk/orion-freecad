@@ -1,0 +1,16 @@
+joint,standard,quantity,status,interface_notes
+Motor mounts,M2x6,16,Proposed,Four per motor; 4 mm pad gives 2 mm nominal engagement; safe depth and head dimensions TBD
+Keyed arm joints,M2x6,8,Proposed,Two per arm; head and nut recesses are coupon candidates
+ESC holder to arm,M2x6,8,Proposed,Two per tray; head recess and accessible nut pocket need fit verification
+Nano PCB to holder,M2x6,4,Proposed,1.6 mm board and 2 mm upper boss cap; hardware material must satisfy Wi-Fi keepout
+Nano holder to center,M2x6,4,Proposed,Open ring with four tabs; nut recess and Wi-Fi-zone hardware material unresolved
+Battery cradle to center,M2x6,4,Proposed,Printed pilot/insert interface and strap/connector geometry TBD
+Camera PCB to rotating frame,M2x6,4,Proposed,Offset four-hole pattern; measured PCB/spacer/nut stack required
+Camera pivot,M2x6,2,Proposed,Rotating 2 mm ear plus 1.8 mm fixed ear and nominal gap; actual nut/head stack TBD
+Camera fixed base,M2x6,2,Proposed,Base to center with underside nut recess; RF clearance unresolved
+GPS support,M2x6,2,Proposed,Underside access to center and proposed pilot in support; actual interface TBD
+IMU support,M2x6,2,Proposed,Top access into proposed support pilot; axes/isolation/header fit TBD
+Power support,M2x6,2,Proposed,Top access into proposed support pilot; actual regulator/harness package TBD
+Landing skids,M2x6,4,Proposed,Two per skid outside Nano footprint; actual pilot/insert engagement TBD
+TOTAL,M2x6,62,Proposed,Additional 50 beyond current 12; final BOM awaits measured interfaces
+Spare hardware,M2x4,12,Unused,Not allocated to this design

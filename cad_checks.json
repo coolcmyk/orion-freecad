@@ -1,0 +1,250 @@
+{
+  "freecad_version": "1.1.3",
+  "spec_revision": "0.3",
+  "release_status": "FIT PROTOTYPE / measured interfaces unresolved",
+  "shape_checks": [
+    {
+      "object": "ArmSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3839.985
+    },
+    {
+      "object": "CenterBaseSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 14379.849
+    },
+    {
+      "object": "P4HolderSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2729.521
+    },
+    {
+      "object": "ESCHolderSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2507.409
+    },
+    {
+      "object": "BatteryCradleSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 6749.683
+    },
+    {
+      "object": "GPSMountSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1674.762
+    },
+    {
+      "object": "IMUMountSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1406.942
+    },
+    {
+      "object": "PowerMountSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1036.242
+    },
+    {
+      "object": "CameraFrameSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 947.989
+    },
+    {
+      "object": "CameraBaseSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 719.725
+    },
+    {
+      "object": "LandingSkidRevised",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1501.842
+    },
+    {
+      "object": "CouponSolid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2284.839
+    }
+  ],
+  "variants": [
+    {
+      "wheelbase_mm": 180,
+      "recompute_errors": [],
+      "invalid_shapes": [],
+      "axes": [
+        {
+          "motor": 0,
+          "x_mm": 63.63961,
+          "y_mm": 63.63961,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 1,
+          "x_mm": -63.63961,
+          "y_mm": 63.63961,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 2,
+          "x_mm": -63.63961,
+          "y_mm": -63.63961,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 3,
+          "x_mm": 63.63961,
+          "y_mm": -63.63961,
+          "position_error_mm": 0.0
+        }
+      ],
+      "prop_mutual_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "printed_part_prop_intersections": [],
+      "printed_part_intersections": [],
+      "component_intersections": [],
+      "nominal_prop_check": "PASS",
+      "final_prop_clearance": "UNRESOLVED: prop_plane_z_mm and prop_sweep_thickness_mm are TBD"
+    },
+    {
+      "wheelbase_mm": 190,
+      "recompute_errors": [],
+      "invalid_shapes": [],
+      "axes": [
+        {
+          "motor": 0,
+          "x_mm": 67.175144,
+          "y_mm": 67.175144,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 1,
+          "x_mm": -67.175144,
+          "y_mm": 67.175144,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 2,
+          "x_mm": -67.175144,
+          "y_mm": -67.175144,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 3,
+          "x_mm": 67.175144,
+          "y_mm": -67.175144,
+          "position_error_mm": 0.0
+        }
+      ],
+      "prop_mutual_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "printed_part_prop_intersections": [],
+      "printed_part_intersections": [],
+      "component_intersections": [],
+      "nominal_prop_check": "PASS",
+      "final_prop_clearance": "UNRESOLVED: prop_plane_z_mm and prop_sweep_thickness_mm are TBD"
+    },
+    {
+      "wheelbase_mm": 200,
+      "recompute_errors": [],
+      "invalid_shapes": [],
+      "axes": [
+        {
+          "motor": 0,
+          "x_mm": 70.710678,
+          "y_mm": 70.710678,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 1,
+          "x_mm": -70.710678,
+          "y_mm": 70.710678,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 2,
+          "x_mm": -70.710678,
+          "y_mm": -70.710678,
+          "position_error_mm": 0.0
+        },
+        {
+          "motor": 3,
+          "x_mm": 70.710678,
+          "y_mm": -70.710678,
+          "position_error_mm": 0.0
+        }
+      ],
+      "prop_mutual_overlap_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "printed_part_prop_intersections": [],
+      "printed_part_intersections": [],
+      "component_intersections": [],
+      "nominal_prop_check": "PASS",
+      "final_prop_clearance": "UNRESOLVED: prop_plane_z_mm and prop_sweep_thickness_mm are TBD"
+    }
+  ],
+  "nano_step_intersections": [],
+  "wifi_added_component_intersections": [],
+  "wifi_fastener_status": "UNRESOLVED: CAD-anchored zone contains candidate Nano, holder, arm and battery fastening locations; conductive hardware must be relocated or a tested nonconductive M2\u00d76 interface chosen.",
+  "cable_status": "Eight proposed finite-diameter guides are clear at 190 mm; actual three-phase bundles, connector exits and bends remain TBD.",
+  "nano_component_relief": "Three native relief strips remove CAD underside-pin interference with 0.5 mm allowance; physical support/fit still pending.",
+  "camera_angle_checks": [
+    {
+      "angle_deg": 0,
+      "pivot_axis_error_mm": 0.0,
+      "printed_collisions": []
+    },
+    {
+      "angle_deg": 15,
+      "pivot_axis_error_mm": 0.0,
+      "printed_collisions": []
+    },
+    {
+      "angle_deg": 30,
+      "pivot_axis_error_mm": 0.0,
+      "printed_collisions": []
+    }
+  ],
+  "battery_adjustment_checks": [
+    {
+      "offset_x_mm": -5,
+      "printed_collisions": []
+    },
+    {
+      "offset_x_mm": 0,
+      "printed_collisions": []
+    },
+    {
+      "offset_x_mm": 5,
+      "printed_collisions": []
+    }
+  ],
+  "nominal_finite_wire_intersections": []
+}

@@ -1,0 +1,20 @@
+"""Run in the existing FreeCAD GUI to start ORION's local MCP bridge."""
+from pathlib import Path
+import sys
+
+import FreeCAD as App
+
+addon = Path("/home/kyo/ws/orion/tools/freecad-mcp/addon/FreeCADMCP")
+if not (addon / "rpc_server" / "rpc_server.py").is_file():
+    raise RuntimeError("ORION FreeCAD MCP source is missing: " + str(addon))
+if str(addon) not in sys.path:
+    sys.path.insert(0, str(addon))
+
+from rpc_server import rpc_server as orion_bridge
+
+if orion_bridge.load_settings().get("remote_enabled", False):
+    raise RuntimeError("Disable Remote Connections before starting the local ORION bridge.")
+
+message = orion_bridge.start_rpc_server(port=9875)
+App.Console.PrintMessage(message + "\n")
+

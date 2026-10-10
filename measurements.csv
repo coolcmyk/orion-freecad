@@ -1,0 +1,132 @@
+alias,value,units,status,source_date,source,uncertainty
+wheelbase_mm,190 mm,mm,Baseline,2026-10-10,SPEC 0.3 §4.1: Baseline; evaluate 180–200 mm,Fit verification pending
+prop_diameter_mm,65 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Conservative CAD envelope; specified physical diameter is 63.76 mm,Fit verification pending
+prop_nominal_diameter_mm,63.76 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified physical disk diameter,Fit verification pending
+prop_hub_thickness_mm,4 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified; not blade sweep thickness,Fit verification pending
+prop_bore_diameter_mm,1.5 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+prop_radial_clearance_mm,5 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed radial clearance target,Fit verification pending
+prop_vertical_clearance_mm,5 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed gap outside the measured blade sweep; verify blade flex allowance,Fit verification pending
+arm_width_mm,10 mm,mm,Proposed,2026-10-10,"SPEC 0.3 §4.1: Proposed, excluding larger root and motor pad",Fit verification pending
+arm_thickness_mm,4 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed FDM starting thickness,Fit verification pending
+arm_root_fillet_mm,3 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed; reduce only if geometry or fit requires,Fit verification pending
+center_length_mm,75 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed X dimension; resize after electronics layout,Fit verification pending
+center_width_mm,70 mm,mm,Proposed,2026-10-10,Layout adjustment: positive edge distance at keyed arm seats,Fit verification pending
+center_plate_thickness_mm,3 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed,Fit verification pending
+holder_wall_mm,2 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed starting wall thickness,Fit verification pending
+holder_fit_clearance_mm,0.5 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed clearance per side; calibrate with the printer,Fit verification pending
+stack_separation_mm,20 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed free space between bounding retention surfaces; Nano model alone is 18.21 mm high; cables/airflow may require more,Fit verification pending
+battery_length_mm,63 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified cell-pack envelope; excludes free leads/plugs,Fit verification pending
+battery_width_mm,15.5 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+battery_height_mm,13.5 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+p4_length_mm,50 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Supplied outline drawing,Fit verification pending
+p4_width_mm,50 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Supplied outline drawing,Fit verification pending
+p4_hole_spacing_u_mm,45.10 mm,mm,Specified,2026-10-10,"SPEC 0.3 §4.1: Drawing, board-local horizontal axis",Fit verification pending
+p4_hole_spacing_v_mm,45.10 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Current manufacturer DXF/PDF; check purchased revision,Fit verification pending
+p4_hole_diameter_mm,2.70 mm,mm,Specified,2026-10-10,"SPEC 0.3 §4.1: Manufacturer drawing [S1]; board hole, not printed holder clearance",Fit verification pending
+p4_pcb_thickness_mm,1.60 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Manufacturer drawing [S1],Fit verification pending
+p4_component_above_pcb_mm,14.45 mm,mm,Derived,2026-10-10,"SPEC 0.3 §4.1: Derived from STEP, PCB top datum [S1]",Fit verification pending
+p4_component_below_pcb_mm,2.16 mm,mm,Derived,2026-10-10,"SPEC 0.3 §4.1: Derived from STEP, PCB underside datum [S1]",Fit verification pending
+p4_assembly_length_mm,50.1 mm,mm,Specified,2026-10-10,"SPEC 0.3 §4.1: Rounded-up STEP X bound, before clearance",Fit verification pending
+p4_assembly_width_mm,52.9 mm,mm,Specified,2026-10-10,"SPEC 0.3 §4.1: Rounded-up STEP Y bound, includes connector overhang",Fit verification pending
+p4_assembly_height_mm,18.3 mm,mm,Specified,2026-10-10,"SPEC 0.3 §4.1: Rounded-up STEP Z bound, before clearance",Fit verification pending
+wifi_antenna_clearance_mm,15 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Espressif end-product recommendation [S6]; anchor to antenna area,Fit verification pending
+esc_length_mm,25 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified; check full insulated assembly,Fit verification pending
+esc_width_mm,20 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+esc_height_mm,7 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+motor_body_diameter_mm,14.8 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified overall diameter,Fit verification pending
+motor_body_height_mm,9.8 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Manufacturer drawing body height [S3],Fit verification pending
+motor_overall_height_mm,14.8 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Drawing body plus 5 mm shaft projection [S3],Fit verification pending
+motor_shaft_projection_mm,5 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Manufacturer drawing [S3],Fit verification pending
+motor_mount_bcd_mm,9 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Four-hole bolt-circle diameter [S3],Fit verification pending
+motor_mount_hole_count,4,,Specified,2026-10-10,SPEC 0.3 §4.1: Dimensionless; four M2 threaded holes [S3],Fit verification pending
+motor_mount_angle_deg,0 deg,deg,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed cardinal orientation; rotate to suit lead exit,Fit verification pending
+standard_screw_length_mm,6 mm,mm,Baseline,2026-10-10,SPEC 0.3 §4.1: User-selected M2×6 baseline; verify joint-specific engagement,Fit verification pending
+motor_thread_diameter_mm,2 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified M2 thread; not printed clearance-hole diameter,Fit verification pending
+motor_shaft_diameter_mm,1.5 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+camera_length_mm,25 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified board outline only,Fit verification pending
+camera_width_mm,24 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified board outline only,Fit verification pending
+camera_hole_diameter_mm,2.2 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Manufacturer board-hole drawing [S4],Fit verification pending
+camera_hole_spacing_u_mm,21 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Manufacturer drawing [S4],Fit verification pending
+camera_hole_spacing_v_mm,13.5 mm,mm,Specified,2026-10-10,"SPEC 0.3 §4.1: Manufacturer drawing [S4]; offset pattern, see coordinates",Fit verification pending
+gps_length_mm,16.2 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+gps_width_mm,12.3 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+gps_height_mm,4.9 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Manufacturer total height including antenna [S5]; verify actual unit identity,Fit verification pending
+imu_length_mm,20.5 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified; longer side assigned to local length,Fit verification pending
+imu_width_mm,14.3 mm,mm,Specified,2026-10-10,SPEC 0.3 §4.1: Specified,Fit verification pending
+battery_slide_travel_mm,10 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed fore/aft adjustment range,Fit verification pending
+strap_width_mm,TBD,mm,TBD,2026-10-10,SPEC 0.3 §4.1: Actual strap width,Unresolved
+strap_thickness_mm,TBD,mm,TBD,2026-10-10,SPEC 0.3 §4.1: Actual strap thickness,Unresolved
+strap_slot_extra_mm,1 mm,mm,Proposed,2026-10-10,SPEC 0.3 §4.1: Proposed total extra width / height; calibrate,Fit verification pending
+prop_plane_z_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+prop_sweep_thickness_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+motor_safe_engagement_min_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+motor_safe_engagement_max_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+motor_underside_protrusion_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+camera_lens_depth_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+camera_pcb_thickness_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+camera_cable_bend_radius_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+imu_populated_height_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+wifi_antenna_hardware_verified,TBD,,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+fastener_head_diameter_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+fastener_head_height_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+nut_across_flats_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+regulator_length_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+regulator_width_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+regulator_height_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+pdb_length_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+pdb_width_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+pdb_height_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+battery_connector_travel_mm,TBD,mm,TBD,2026-10-10,Actual purchased hardware / physical fit measurement required,Unresolved
+motor_radius_mm,=wheelbase_mm / 2,mm,Derived,2026-10-10,True-X center-to-motor distance,Fit verification pending
+motor_coordinate_mm,=wheelbase_mm / (2 * sqrt(2)),mm,Derived,2026-10-10,True-X coordinate magnitude,Fit verification pending
+m2_clearance_mm,2.4 mm,mm,Proposed,2026-10-10,Printed hole coupon candidate; not thread diameter,Fit verification pending
+motor_pad_diameter_mm,20 mm,mm,Proposed,2026-10-10,14.8 mm motor plus structural rim,Fit verification pending
+motor_mount_plate_mm,4 mm,mm,Proposed,2026-10-10,M2×6 nominal engagement 2 mm; safe limit TBD,Fit verification pending
+motor_washer_mm,0 mm,mm,Proposed,2026-10-10,No washer in illustrative prototype; actual stack TBD,Fit verification pending
+arm_root_radius_mm,34 mm,mm,Proposed,2026-10-10,Keyed root seating center along local arm axis,Fit verification pending
+arm_root_width_mm,18 mm,mm,Proposed,2026-10-10,Widened circular root,Fit verification pending
+arm_key_length_mm,14 mm,mm,Proposed,2026-10-10,Root anti-rotation tongue,Fit verification pending
+arm_key_width_mm,8 mm,mm,Proposed,2026-10-10,Root anti-rotation tongue,Fit verification pending
+arm_key_height_mm,1.5 mm,mm,Proposed,2026-10-10,Tongue rises into underside center pocket,Fit verification pending
+arm_key_fit_mm,0.2 mm,mm,Proposed,2026-10-10,Per-side tongue-to-seat clearance,Fit verification pending
+esc_radius_mm,=motor_radius_mm - 33 mm,mm,Derived,2026-10-10,ESC position follows arm span,Fit verification pending
+esc_mount_spacing_mm,33 mm,mm,Proposed,2026-10-10,Two holder attachment tabs outside ESC envelope,Fit verification pending
+esc_tray_z_mm,-17 mm,mm,Proposed,2026-10-10,ESCs below arms to avoid blade sweep,Fit verification pending
+layout_prop_plane_z_mm,10 mm,mm,Proposed,2026-10-10,Unmeasured nominal sweep plane; final clearance is unresolved,Fit verification pending
+layout_prop_sweep_mm,4 mm,mm,Proposed,2026-10-10,Unmeasured blade sweep thickness; separate from specified hub thickness,Fit verification pending
+p4_pcb_underside_z_mm,8 mm,mm,Proposed,2026-10-10,Stand-offs clear underside STEP components,Fit verification pending
+p4_pcb_top_z_mm,=p4_pcb_underside_z_mm + p4_pcb_thickness_mm,mm,Derived,2026-10-10,PCB datum for imported STEP,Fit verification pending
+p4_rotation_deg,0 deg,deg,Proposed,2026-10-10,STEP orientation; actual board/cable orientation must be verified,Fit verification pending
+battery_cradle_z_mm,-32 mm,mm,Proposed,2026-10-10,Tray bottom; battery underside -30 mm,Fit verification pending
+battery_offset_x_mm,0 mm,mm,Proposed,2026-10-10,Adjustment range ±5 mm; validate connectors throughout range,Fit verification pending
+layout_strap_width_mm,6 mm,mm,Proposed,2026-10-10,Slot prototype only; actual strap_width_mm remains TBD,Fit verification pending
+layout_strap_thickness_mm,1 mm,mm,Proposed,2026-10-10,Slot prototype only; actual strap_thickness_mm remains TBD,Fit verification pending
+camera_pivot_x_mm,43 mm,mm,Proposed,2026-10-10,Front optical-axis pivot X,Fit verification pending
+camera_pivot_z_mm,16 mm,mm,Proposed,2026-10-10,Front optical-axis pivot Z,Fit verification pending
+camera_tilt_deg,15 deg,deg,Proposed,2026-10-10,Upward optical angle relative to +X; validate fisheye image,Fit verification pending
+layout_camera_pcb_mm,1.6 mm,mm,Proposed,2026-10-10,Unmeasured board thickness surrogate,Fit verification pending
+layout_camera_lens_depth_mm,14 mm,mm,Proposed,2026-10-10,Unmeasured Type G lens depth surrogate,Fit verification pending
+layout_camera_lens_diameter_mm,18 mm,mm,Proposed,2026-10-10,Unmeasured fisheye lens diameter surrogate,Fit verification pending
+layout_imu_height_mm,5 mm,mm,Proposed,2026-10-10,Unmeasured populated/header height surrogate,Fit verification pending
+gps_center_x_mm,-39 mm,mm,Proposed,2026-10-10,Raised rearward sky-facing tray,Fit verification pending
+gps_tray_z_mm,26 mm,mm,Proposed,2026-10-10,Tray bottom above Nano reference,Fit verification pending
+landing_bottom_z_mm,-38 mm,mm,Proposed,2026-10-10,Nominal underside packaging protection,Fit verification pending
+layout_wire_diameter_mm,2.5 mm,mm,Proposed,2026-10-10,Finite wire envelope; actual insulated wires TBD,Fit verification pending
+layout_power_length_mm,12 mm,mm,Proposed,2026-10-10,Candidate power package only; actual regulator/PDB TBD,Fit verification pending
+layout_power_width_mm,16 mm,mm,Proposed,2026-10-10,Candidate power package only; actual regulator/PDB TBD,Fit verification pending
+layout_power_height_mm,5 mm,mm,Proposed,2026-10-10,Candidate power package only; actual regulator/PDB TBD,Fit verification pending
+wifi_antenna_min_u_mm,31.6179520305 mm,mm,Derived,2026-10-10,"S1 official STEP: antenna copper solid 748, MINI-ANT-TYPE-D-H-TOP",Fit verification pending
+wifi_antenna_min_v_mm,0.5294454660 mm,mm,Derived,2026-10-10,S1 official STEP antenna copper bounds,Fit verification pending
+wifi_antenna_min_z_mm,0.882015 mm,mm,Derived,2026-10-10,S1 PCB top datum,Fit verification pending
+wifi_antenna_length_mm,12.40000038 mm,mm,Derived,2026-10-10,S1 antenna copper X span,Fit verification pending
+wifi_antenna_width_mm,5.161243611 mm,mm,Derived,2026-10-10,S1 antenna copper Y span,Fit verification pending
+wifi_antenna_thickness_mm,0.03429 mm,mm,Derived,2026-10-10,S1 antenna copper Z span,Fit verification pending
+battery_mass_g,26.1 g,g,Specified,2026-10-10,SPEC §2.2; pack excludes straps and free connector support,Fit verification pending
+esc_mass_g,9 g,g,Specified,2026-10-10,SPEC §2.2; each supplied ESC,Fit verification pending
+prop_mass_g,0.8 g,g,Specified,2026-10-10,SPEC §2.2; each prop,Fit verification pending
+motor_mass_g,4.8 g,g,Specified,2026-10-10,S3 manufacturer motor including wires,Fit verification pending
+gps_mass_g,2.4 g,g,Specified,2026-10-10,S5 nominal candidate GPS mass,Fit verification pending
+printed_frame_mass_g,TBD,g,TBD,2026-10-10,Actual scale measurement required,Unresolved
+nano_mass_g,TBD,g,TBD,2026-10-10,Actual populated board mass required,Unresolved
+assembled_cg_x_mm,TBD,mm,TBD,2026-10-10,Measured balance required,Unresolved
+assembled_cg_y_mm,TBD,mm,TBD,2026-10-10,Measured balance required,Unresolved

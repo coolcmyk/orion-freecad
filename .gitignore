@@ -1,0 +1,21 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and agent configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# FreeCAD automatic backups
+*.FCBak
+*.FCStd1
+*.FCStd2
+*.FCStd~
